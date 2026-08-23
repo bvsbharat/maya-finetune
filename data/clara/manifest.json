@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "clara_087f03adb704_0001",
+    "run_id": "087f03adb704",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/087f03adb704/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from Guidewire. I manage our agentic first notice of loss waitlist.",
+    "duration_sec": 3.72,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_087f03adb704_0002",
+    "run_id": "087f03adb704",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/087f03adb704/recording.wav",
+    "channel": "right",
+    "text": "If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?",
+    "duration_sec": 4.32,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_087f03adb704_0003",
+    "run_id": "087f03adb704",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/087f03adb704/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So where are you working these days?",
+    "duration_sec": 4.05,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_087f03adb704_0004",
+    "run_id": "087f03adb704",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/087f03adb704/recording.wav",
+    "channel": "right",
+    "text": "Oh, nice! So tell me a bit about what challenges you are running into with personal auto intake right now.",
+    "duration_sec": 3.03,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_087f03adb704_0005",
+    "run_id": "087f03adb704",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/087f03adb704/recording.wav",
+    "channel": "right",
+    "text": "What we have today is Concierge takes the whole first notice over the phone as a natural conversation, asking the right follow-ups instead of a rigid script, and the claim is created and routed right into Claim Center. And after intake, folks usually look at things like claim status tracking, document submission, or coverage verification. Anything in that area you would want it to tackle next?",
+    "duration_sec": 3.0,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_087f03adb704_0006",
+    "run_id": "087f03adb704",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/087f03adb704/recording.wav",
+    "channel": "right",
+    "text": "Cool. Um, so what is the best work email to reach you at?",
+    "duration_sec": 2.7,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_26101f02cd33_0007",
+    "run_id": "26101f02cd33",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/26101f02cd33/recording.wav",
+    "channel": "right",
+    "text": "[calm] Hi, this is Clara from the Guidewire Agentic F N O L waitlist. [break] If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?",
+    "duration_sec": 4.23,
+    "agent_name": "agenticwaitlist-pro-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_26101f02cd33_0008",
+    "run_id": "26101f02cd33",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/26101f02cd33/recording.wav",
+    "channel": "right",
+    "text": "[relaxed] Nice to meet you, Bharat. So [break] are you a Guidewire customer, or are you calling on behalf of a customer?",
+    "duration_sec": 1.62,
+    "agent_name": "agenticwaitlist-pro-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_26101f02cd33_0009",
+    "run_id": "26101f02cd33",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/26101f02cd33/recording.wav",
+    "channel": "right",
+    "text": "[relaxed] Got it. Um [break] so [break] which company are you interested for?",
+    "duration_sec": 1.83,
+    "agent_name": "agenticwaitlist-pro-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_26101f02cd33_0010",
+    "run_id": "26101f02cd33",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/26101f02cd33/recording.wav",
+    "channel": "right",
+    "text": "[relaxed] Got it. And what do you do there?",
+    "duration_sec": 2.01,
+    "agent_name": "agenticwaitlist-pro-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_26101f02cd33_0011",
+    "run_id": "26101f02cd33",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/26101f02cd33/recording.wav",
+    "channel": "right",
+    "text": "[curious] So [break] tell me a bit about how F N O L works for you today.",
+    "duration_sec": 3.45,
+    "agent_name": "agenticwaitlist-pro-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_26101f02cd33_0012",
+    "run_id": "26101f02cd33",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/26101f02cd33/recording.wav",
+    "channel": "right",
+    "text": "[calm] Ya? Still",
+    "duration_sec": 2.52,
+    "agent_name": "agenticwaitlist-pro-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_26101f02cd33_0013",
+    "run_id": "26101f02cd33",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/26101f02cd33/recording.wav",
+    "channel": "right",
+    "text": "[curious] Ya [break] and how is that working out for your policyholders?",
+    "duration_sec": 1.38,
+    "agent_name": "agenticwaitlist-pro-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_26101f02cd33_0014",
+    "run_id": "26101f02cd33",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/26101f02cd33/recording.wav",
+    "channel": "right",
+    "text": "[confident] So what we have today is, Concierge takes the whole first notice over the",
+    "duration_sec": 2.28,
+    "agent_name": "agenticwaitlist-pro-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0015",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[curious] Um [break] so [break] are there any other use cases you would want Concierge to handle?",
+    "duration_sec": 6.6,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0016",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[calm] And [break] do you have a timeline in mind for going live with agentic F N O L?",
+    "duration_sec": 7.41,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0017",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[relaxed] Cool, um [break] so [break] what is the best email to reach you at?",
+    "duration_sec": 4.41,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0018",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[satisfied] Got it, so that is bharat b u s at icloud dot com, is that right?",
+    "duration_sec": 5.94,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0019",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[relaxed] Cool [break] so before I let you go, anything you want to ask me?",
+    "duration_sec": 3.93,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0020",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[calm] Concierge handles the entire first notice of loss conversation over the phone, asking the right questions dynamically rather than following a rigid script. [break] It creates and routes",
+    "duration_sec": 7.8,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0021",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[calm] Agentic F N O L means an intelligent voice agent manages the initial claim report directly with the policyholder, understanding their details and creating",
+    "duration_sec": 7.17,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0022",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[calm] Concierge is Guidewire's specific product for agentic F N O L. [break] It connects directly into ClaimCenter to handle those first notice calls automatically. [break] [relaxed] Anything else I can answer for you?",
+    "duration_sec": 12.9,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0023",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[calm] Simply put, Concierge is the name of our voice assistant that takes claim calls and files the claim for you. [break] [relaxed] Does that help make sense of it?",
+    "duration_sec": 6.24,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0024",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[calm] Concierge acts as the virtual claims agent on the phone with the customer. [break] [relaxed] Anything else you want to ask?",
+    "duration_sec": 4.23,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0025",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[calm] Not at all, [break] I am happy to take whatever time you need. [break] What other questions are on your mind?",
+    "duration_sec": 6.6,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_532dfe2ec073_0026",
+    "run_id": "532dfe2ec073",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/532dfe2ec073/recording.wav",
+    "channel": "right",
+    "text": "[grateful] Anyway, that is everything I need. Thanks so much for your time. [break] The team will follow up with you. Hope you have a good one.",
+    "duration_sec": 3.84,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "live"
+  },
+  {
+    "id": "clara_70916f43b7f2_0027",
+    "run_id": "70916f43b7f2",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/70916f43b7f2/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from Guidewire. I manage our agentic first notice of loss waitlist.",
+    "duration_sec": 2.76,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_70916f43b7f2_0028",
+    "run_id": "70916f43b7f2",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/70916f43b7f2/recording.wav",
+    "channel": "right",
+    "text": "Awesome. To get things started, what is your name?",
+    "duration_sec": 4.59,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_70916f43b7f2_0029",
+    "run_id": "70916f43b7f2",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/70916f43b7f2/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Sam. So, where are you working these days?",
+    "duration_sec": 3.18,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_70916f43b7f2_0030",
+    "run_id": "70916f43b7f2",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/70916f43b7f2/recording.wav",
+    "channel": "right",
+    "text": "Nice. Nexa Auto Insurance. Um, so tell me a bit about what has you looking into an agentic first notice of loss right now?",
+    "duration_sec": 3.09,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_70916f43b7f2_0031",
+    "run_id": "70916f43b7f2",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/70916f43b7f2/recording.wav",
+    "channel": "right",
+    "text": "That makes total sense. With Concierge, callers just talk through their claim naturally with no phone trees, and it gets created and routed right into Claim Center on the spot. And after intake, folks usually look at things like claims status tracking, document submission, or coverage verification. Is there anything like that you'd want to tackle next?",
+    "duration_sec": 2.91,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_70916f43b7f2_0032",
+    "run_id": "70916f43b7f2",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/70916f43b7f2/recording.wav",
+    "channel": "right",
+    "text": "Got it. Um, so what is the best work email to reach you at?",
+    "duration_sec": 2.64,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_70916f43b7f2_0033",
+    "run_id": "70916f43b7f2",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/70916f43b7f2/recording.wav",
+    "channel": "right",
+    "text": "Thank you so much for your time today, Sam. You are all set on the Agentic FNOL waitlist, and our team will be in touch with you shortly at sam@nexaauto.com. Have a wonderful day. And goodbye.",
+    "duration_sec": 3.33,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_70916f43b7f2_0034",
+    "run_id": "70916f43b7f2",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/70916f43b7f2/recording.wav",
+    "channel": "right",
+    "text": "You're very welcome, Sam. Have a great day. Goodbye!",
+    "duration_sec": 5.79,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_71db9e1fa2bf_0035",
+    "run_id": "71db9e1fa2bf",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/71db9e1fa2bf/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?",
+    "duration_sec": 3.6,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_71db9e1fa2bf_0036",
+    "run_id": "71db9e1fa2bf",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/71db9e1fa2bf/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So are you a Guidewire customer? Or are you calling on behalf of a customer?",
+    "duration_sec": 3.39,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_71db9e1fa2bf_0037",
+    "run_id": "71db9e1fa2bf",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/71db9e1fa2bf/recording.wav",
+    "channel": "right",
+    "text": "Got it. So which company are you interested for?",
+    "duration_sec": 3.72,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_71db9e1fa2bf_0038",
+    "run_id": "71db9e1fa2bf",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/71db9e1fa2bf/recording.wav",
+    "channel": "right",
+    "text": "So tell me a bit about what has you looking at Agentic FNOL right now.",
+    "duration_sec": 3.18,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_71db9e1fa2bf_0039",
+    "run_id": "71db9e1fa2bf",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/71db9e1fa2bf/recording.wav",
+    "channel": "right",
+    "text": "So what we have today is Concierge takes the whole first notice over the phone conversationally, asking the right questions for personal auto without static scripts, and writes straight into Claim Center so the claim is created and routed immediately. And are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 3.3,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_71db9e1fa2bf_0040",
+    "run_id": "71db9e1fa2bf",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/71db9e1fa2bf/recording.wav",
+    "channel": "right",
+    "text": "Yeah, and what is your role there?",
+    "duration_sec": 3.96,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_71db9e1fa2bf_0041",
+    "run_id": "71db9e1fa2bf",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/71db9e1fa2bf/recording.wav",
+    "channel": "right",
+    "text": "Cool. Um, so what is the best email to reach you at?",
+    "duration_sec": 3.18,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_71db9e1fa2bf_0042",
+    "run_id": "71db9e1fa2bf",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/71db9e1fa2bf/recording.wav",
+    "channel": "right",
+    "text": "Got it. So that is alex.chen.demo@example.com, is that right?",
+    "duration_sec": 3.75,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_73500e1de380_0043",
+    "run_id": "73500e1de380",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/73500e1de380/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?",
+    "duration_sec": 3.57,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_73500e1de380_0044",
+    "run_id": "73500e1de380",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/73500e1de380/recording.wav",
+    "channel": "right",
+    "text": "Are you still with me?",
+    "duration_sec": 3.24,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_73500e1de380_0045",
+    "run_id": "73500e1de380",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/73500e1de380/recording.wav",
+    "channel": "right",
+    "text": "Just checking in. Are you still there?",
+    "duration_sec": 3.66,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_74940db87025_0046",
+    "run_id": "74940db87025",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/74940db87025/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?",
+    "duration_sec": 3.75,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_74940db87025_0047",
+    "run_id": "74940db87025",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/74940db87025/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So are you a Guidewire customer? Or are you calling on behalf of a customer?",
+    "duration_sec": 2.52,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_74940db87025_0048",
+    "run_id": "74940db87025",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/74940db87025/recording.wav",
+    "channel": "right",
+    "text": "Got it. So which company are you interested for?",
+    "duration_sec": 2.61,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_74940db87025_0049",
+    "run_id": "74940db87025",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/74940db87025/recording.wav",
+    "channel": "right",
+    "text": "So tell me a bit about how FNOL works for you today, or what has you looking at Agentic FNOL?",
+    "duration_sec": 2.55,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_74940db87025_0050",
+    "run_id": "74940db87025",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/74940db87025/recording.wav",
+    "channel": "right",
+    "text": "Yeah. That makes total sense. And is that mostly to cut down on call handling time or more about getting better structured data right away?",
+    "duration_sec": 3.9,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_74940db87025_0051",
+    "run_id": "74940db87025",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/74940db87025/recording.wav",
+    "channel": "right",
+    "text": "So what we have today is Concierge takes the whole first notice over the phone as a real conversation. Policyholder just talks, no forms or menus, and the claim is created and routed straight into Claim Center by the time they hang up, with all the structured details captured. And are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 2.91,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_74940db87025_0052",
+    "run_id": "74940db87025",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/74940db87025/recording.wav",
+    "channel": "right",
+    "text": "Yeah, and what do you do there?",
+    "duration_sec": 4.2,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_74940db87025_0053",
+    "run_id": "74940db87025",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/74940db87025/recording.wav",
+    "channel": "right",
+    "text": "Cool. So what is the best email to reach you at?",
+    "duration_sec": 3.06,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_74940db87025_0054",
+    "run_id": "74940db87025",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/74940db87025/recording.wav",
+    "channel": "right",
+    "text": "Got it. So that is alex@example.com, is that right?",
+    "duration_sec": 2.4,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_74940db87025_0055",
+    "run_id": "74940db87025",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/74940db87025/recording.wav",
+    "channel": "right",
+    "text": "Thanks so much for sharing all that, Alex. Have a great day!",
+    "duration_sec": 2.7,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_826800d8ee41_0056",
+    "run_id": "826800d8ee41",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/826800d8ee41/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from Guidewire. I manage our agentic first notice of loss waitlist.",
+    "duration_sec": 2.61,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_826800d8ee41_0057",
+    "run_id": "826800d8ee41",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/826800d8ee41/recording.wav",
+    "channel": "right",
+    "text": "Awesome. Um, so what is your name?",
+    "duration_sec": 2.16,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_826800d8ee41_0058",
+    "run_id": "826800d8ee41",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/826800d8ee41/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So are you a Guidewire customer or are you calling on behalf of a customer?",
+    "duration_sec": 3.39,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_826800d8ee41_0059",
+    "run_id": "826800d8ee41",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/826800d8ee41/recording.wav",
+    "channel": "right",
+    "text": "Got it. Um, so which company are you interested for?",
+    "duration_sec": 3.03,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_826800d8ee41_0060",
+    "run_id": "826800d8ee41",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/826800d8ee41/recording.wav",
+    "channel": "right",
+    "text": "So tell me a bit about how FNOL works for you today.",
+    "duration_sec": 3.75,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_826800d8ee41_0061",
+    "run_id": "826800d8ee41",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/826800d8ee41/recording.wav",
+    "channel": "right",
+    "text": "Yeah, and how long does the intake process usually take today?",
+    "duration_sec": 3.81,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_826800d8ee41_0062",
+    "run_id": "826800d8ee41",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/826800d8ee41/recording.wav",
+    "channel": "right",
+    "text": "So Concierge takes the whole first notice over the phone as a natural conversation, creating and routing the claim directly in Claim Center by the time they hang up. That really helps cut down on that intake time. And are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 2.13,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_826800d8ee41_0063",
+    "run_id": "826800d8ee41",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/826800d8ee41/recording.wav",
+    "channel": "right",
+    "text": "Yeah, and what do you do there?",
+    "duration_sec": 3.0,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_826800d8ee41_0064",
+    "run_id": "826800d8ee41",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/826800d8ee41/recording.wav",
+    "channel": "right",
+    "text": "Cool. Um, so what is the best email to reach you at?",
+    "duration_sec": 2.55,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_826800d8ee41_0065",
+    "run_id": "826800d8ee41",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/826800d8ee41/recording.wav",
+    "channel": "right",
+    "text": "Thank you so much for your time today, Alex. You're all set on the waitlist, and our team will be in touch shortly with next steps. Have a wonderful day!",
+    "duration_sec": 2.43,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0066",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, What is your name?",
+    "duration_sec": 3.81,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0067",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So are you a Guidewire customer? Or are you calling on behalf of a customer?",
+    "duration_sec": 3.9,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0068",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "Got it. Um, so which company are you interested for?",
+    "duration_sec": 3.9,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0069",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "Nice. And what do you do there?",
+    "duration_sec": 6.18,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0070",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "Gotcha. Um, so what is you looking at, AgenticFNOL, right now?",
+    "duration_sec": 4.59,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0071",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "Cool. So what is the trickiest part of that auto workflow for you today?",
+    "duration_sec": 9.54,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0072",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "So what Concierge does is handle that whole first notice conversation naturally over the phone, capturing all the key loss details without rigid scripts. It writes directly into Claim Center in real time, so the claim is created and routed before the caller even hangs up.",
+    "duration_sec": 5.94,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0073",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "And are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 5.61,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0074",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "That makes a lot of sense. So what is the best email to reach you at?",
+    "duration_sec": 6.93,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0075",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "Got it. So that is alex.chen@apple.com, is that right?",
+    "duration_sec": 6.72,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0076",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "Cool, so before I let you go, anything you want to ask me?",
+    "duration_sec": 5.49,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0077",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "So that is a conversation for the team, but I can definitely flag those questions when I pass this along. Anything else you want to ask?",
+    "duration_sec": 4.98,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_94f82cc7229e_0078",
+    "run_id": "94f82cc7229e",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/94f82cc7229e/recording.wav",
+    "channel": "right",
+    "text": "Anyway. That is everything I need. Thanks so much for your time. The team will follow up with you. Hope you have a good one.",
+    "duration_sec": 4.5,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_9cc36771aadd_0079",
+    "run_id": "9cc36771aadd",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/9cc36771aadd/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, What is your name?",
+    "duration_sec": 4.05,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_9cc36771aadd_0080",
+    "run_id": "9cc36771aadd",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/9cc36771aadd/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So are you a Guidewire customer yourself? or calling on behalf of a customer.",
+    "duration_sec": 5.31,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_9cc36771aadd_0081",
+    "run_id": "9cc36771aadd",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/9cc36771aadd/recording.wav",
+    "channel": "right",
+    "text": "Got it. So which company are you interested for?",
+    "duration_sec": 5.67,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_9cc36771aadd_0082",
+    "run_id": "9cc36771aadd",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/9cc36771aadd/recording.wav",
+    "channel": "right",
+    "text": "Got it. And what do you do there?",
+    "duration_sec": 4.56,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_9cc36771aadd_0083",
+    "run_id": "9cc36771aadd",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/9cc36771aadd/recording.wav",
+    "channel": "right",
+    "text": "Very cool. So tell me a bit about what has you exploring Agentic FNOL for that personal autoflow right now?",
+    "duration_sec": 5.7,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_9cc36771aadd_0084",
+    "run_id": "9cc36771aadd",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/9cc36771aadd/recording.wav",
+    "channel": "right",
+    "text": "So what we have today is Concierge takes the whole first notice over the phone as a natural conversation with no phone tree or forms. It writes straight into Claim Center, so the claim is created and routed before the call even wraps up. That way, your policyholders get that smooth conversational experience without the backend delays.",
+    "duration_sec": 6.36,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_9cc36771aadd_0085",
+    "run_id": "9cc36771aadd",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/9cc36771aadd/recording.wav",
+    "channel": "right",
+    "text": "And are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 10.2,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_9cc36771aadd_0086",
+    "run_id": "9cc36771aadd",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/9cc36771aadd/recording.wav",
+    "channel": "right",
+    "text": "That makes a lot of sense. And do you have a timeline in mind for going live with Agentic FNOL?",
+    "duration_sec": 6.39,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_9cc36771aadd_0087",
+    "run_id": "9cc36771aadd",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/9cc36771aadd/recording.wav",
+    "channel": "right",
+    "text": "Sounds like a solid plan. Um, so what is the best work email to reach you at?",
+    "duration_sec": 8.25,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_9cc36771aadd_0088",
+    "run_id": "9cc36771aadd",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/9cc36771aadd/recording.wav",
+    "channel": "right",
+    "text": "Got it. So that is alex@apple.com, is that right?",
+    "duration_sec": 4.11,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a1a3a3a78fb5_0089",
+    "run_id": "a1a3a3a78fb5",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a1a3a3a78fb5/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?",
+    "duration_sec": 6.3,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a1a3a3a78fb5_0090",
+    "run_id": "a1a3a3a78fb5",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a1a3a3a78fb5/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. Um, so are you a Guidewire customer? Or are you calling on behalf of a customer?",
+    "duration_sec": 6.33,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a1a3a3a78fb5_0091",
+    "run_id": "a1a3a3a78fb5",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a1a3a3a78fb5/recording.wav",
+    "channel": "right",
+    "text": "Got it. Um, so which company are you with?",
+    "duration_sec": 7.62,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a1a3a3a78fb5_0092",
+    "run_id": "a1a3a3a78fb5",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a1a3a3a78fb5/recording.wav",
+    "channel": "right",
+    "text": "Cool. Um, so tell me a bit about how FNOL works for you today.",
+    "duration_sec": 3.84,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a1a3a3a78fb5_0093",
+    "run_id": "a1a3a3a78fb5",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a1a3a3a78fb5/recording.wav",
+    "channel": "right",
+    "text": "Yeah, that makes sense. And what is the biggest pain point with the call center handling it right now?",
+    "duration_sec": 9.42,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a1a3a3a78fb5_0094",
+    "run_id": "a1a3a3a78fb5",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a1a3a3a78fb5/recording.wav",
+    "channel": "right",
+    "text": "So what we have today is Concierge takes the whole first notice over the phone with no wait time. The policyholder just talks naturally, and the routine claim is created and routed straight into Claim Center by the time they hang up. That way, your adjusters only step in on the complex files.",
+    "duration_sec": 6.3,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a1a3a3a78fb5_0095",
+    "run_id": "a1a3a3a78fb5",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a1a3a3a78fb5/recording.wav",
+    "channel": "right",
+    "text": "And are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 6.24,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a1a3a3a78fb5_0096",
+    "run_id": "a1a3a3a78fb5",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a1a3a3a78fb5/recording.wav",
+    "channel": "right",
+    "text": "Cool. Um, so what is the best work email to reach you at?",
+    "duration_sec": 4.74,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a1a3a3a78fb5_0097",
+    "run_id": "a1a3a3a78fb5",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a1a3a3a78fb5/recording.wav",
+    "channel": "right",
+    "text": "Got it. So that is alex.mercer@apextech.com, is that right?",
+    "duration_sec": 5.49,
+    "agent_name": "agentic-fnol-waitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a5e846594b03_0098",
+    "run_id": "a5e846594b03",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a5e846594b03/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, What is your name?",
+    "duration_sec": 6.84,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a5e846594b03_0099",
+    "run_id": "a5e846594b03",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a5e846594b03/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So are you a Guidewire customer, or are you calling on behalf of a customer?",
+    "duration_sec": 6.15,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a5e846594b03_0100",
+    "run_id": "a5e846594b03",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a5e846594b03/recording.wav",
+    "channel": "right",
+    "text": "Got it. So which company are you with?",
+    "duration_sec": 9.63,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a5e846594b03_0101",
+    "run_id": "a5e846594b03",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a5e846594b03/recording.wav",
+    "channel": "right",
+    "text": "So tell me a bit about how FNOL works for you today.",
+    "duration_sec": 4.44,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a5e846594b03_0102",
+    "run_id": "a5e846594b03",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a5e846594b03/recording.wav",
+    "channel": "right",
+    "text": "Yeah, that makes sense. And is the goal mainly cutting down handle times for those call centers or handling off-hours volume?",
+    "duration_sec": 7.26,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a5e846594b03_0103",
+    "run_id": "a5e846594b03",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a5e846594b03/recording.wav",
+    "channel": "right",
+    "text": "So what we have with Concierge is taking that entire intake over the phone conversationally— no forms or menu trees needed. It routes and creates the claim right away, so you get that 24/7 coverage without needing extra staffing.",
+    "duration_sec": 9.27,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a5e846594b03_0104",
+    "run_id": "a5e846594b03",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a5e846594b03/recording.wav",
+    "channel": "right",
+    "text": "It asks natural follow-ups for specific loss details like location and drivers, just like an adjuster would. Are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 5.82,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a5e846594b03_0105",
+    "run_id": "a5e846594b03",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a5e846594b03/recording.wav",
+    "channel": "right",
+    "text": "Cool! So what is the best email to reach you at?",
+    "duration_sec": 4.65,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_a5e846594b03_0106",
+    "run_id": "a5e846594b03",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/a5e846594b03/recording.wav",
+    "channel": "right",
+    "text": "Got it. So that is alex@apexinsurancetech.com, is that right?",
+    "duration_sec": 5.4,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0107",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, What is your name?",
+    "duration_sec": 4.05,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0108",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So are you a Guidewire customer? Or are you calling on behalf of a customer?",
+    "duration_sec": 3.42,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0109",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Got it. So which company are you interested for?",
+    "duration_sec": 3.84,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0110",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Got it. And what do you do there?",
+    "duration_sec": 4.26,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0111",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Oh, nice! So tell me a bit about what has you looking at Agentic FNOl right now?",
+    "duration_sec": 4.23,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0112",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Yeah. That makes sense. Is there a specific part of the intake conversation you are finding trickiest to automate today?",
+    "duration_sec": 4.89,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0113",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "So what we have today is Concierge takes the whole first notice over the phone as a natural conversation— no fixed scripts or menu trees. It dynamically asks the right follow-ups and right structured data straight into Claim Center, so the claim is created and routed before the caller even hangs up.",
+    "duration_sec": 3.21,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0114",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "And are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 3.21,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0115",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Got it. And do you have a timeline in mind for going live with Agentic FNOL?",
+    "duration_sec": 3.9,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0116",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Cool. Um, so what is the best email to reach you at?",
+    "duration_sec": 2.37,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0117",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Got it. So that is alex@apple.com, is that right?",
+    "duration_sec": 1.98,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0118",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Cool, so before I let you go, Anything you want to ask me?",
+    "duration_sec": 4.2,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0119",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "So the team works closely with early access partners on setup and Claim Center integration, but the exact technical details and process are conversations for the product team. I can definitely flag that question when I pass your info along. Anything else?",
+    "duration_sec": 4.38,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_aa8cdc2b682d_0120",
+    "run_id": "aa8cdc2b682d",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/aa8cdc2b682d/recording.wav",
+    "channel": "right",
+    "text": "Anyway. That is everything I need. Thanks so much for your time. The team will follow up with you. Hope you have a good one.",
+    "duration_sec": 2.91,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0121",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, What is your name?",
+    "duration_sec": 6.93,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0122",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So are you a Guidewire customer, or are you calling on behalf of a customer?",
+    "duration_sec": 3.72,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0123",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "Got it. So which company are you interested for?",
+    "duration_sec": 4.02,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0124",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "Got it. And what do you do there?",
+    "duration_sec": 8.04,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0125",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "Oh, nice. So what has you looking at Agentic FNOL for that demo specifically?",
+    "duration_sec": 9.15,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0126",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "So what Concierge does is take the whole first notice over the phone as a natural conversation. The policyholder just talks with no forms or menu trees, and the claim is created and routed directly into Claim Center by the time they hang up.",
+    "duration_sec": 5.97,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0127",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "And are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 8.49,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0128",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "And do you have a timeline in mind for going live with Agentic FNOL?",
+    "duration_sec": 6.78,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0129",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "Cool, um, so what is the best email to reach you at?",
+    "duration_sec": 6.36,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0130",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "Got it. So that is alex@apple.com, is that right?",
+    "duration_sec": 4.32,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0131",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "Cool, so before I let you go, Anything you want to ask me?",
+    "duration_sec": 8.82,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0132",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "Early access is tailored with our product team to test out the voice flow directly with ClaimCenter. For specific setup details and technical requirements, that is a conversation for the team, and I can flag your demo timeline when I pass this along. Anything else?",
+    "duration_sec": 5.31,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_b91b79dd26ac_0133",
+    "run_id": "b91b79dd26ac",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/b91b79dd26ac/recording.wav",
+    "channel": "right",
+    "text": "Anyway. That is everything I need. Thanks so much for your time. The team will follow up with you. Hope you have a good one.",
+    "duration_sec": 5.46,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_bb6756664727_0134",
+    "run_id": "bb6756664727",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/bb6756664727/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?",
+    "duration_sec": 3.57,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_bb6756664727_0135",
+    "run_id": "bb6756664727",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/bb6756664727/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So are you a Guidewire customer or are you calling on behalf of a customer?",
+    "duration_sec": 3.75,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_bb6756664727_0136",
+    "run_id": "bb6756664727",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/bb6756664727/recording.wav",
+    "channel": "right",
+    "text": "Got it. So which company are you interested for?",
+    "duration_sec": 3.57,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_bb6756664727_0137",
+    "run_id": "bb6756664727",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/bb6756664727/recording.wav",
+    "channel": "right",
+    "text": "So tell me a bit about how FNOL works for you today.",
+    "duration_sec": 3.75,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_bb6756664727_0138",
+    "run_id": "bb6756664727",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/bb6756664727/recording.wav",
+    "channel": "right",
+    "text": "Yeah, and what does your cycle time look like from that first call to the claim getting set up?",
+    "duration_sec": 7.92,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_bb6756664727_0139",
+    "run_id": "bb6756664727",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/bb6756664727/recording.wav",
+    "channel": "right",
+    "text": "So what we have today is concierge takes the whole first notice over the phone. Policyholder just talks, no forms, and the claim is created and routed straight into Claim Center by the time they hang up. So that 24 to 48 hour window drops to real time automatically.",
+    "duration_sec": 7.35,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_bb6756664727_0140",
+    "run_id": "bb6756664727",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/bb6756664727/recording.wav",
+    "channel": "right",
+    "text": "And are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 6.57,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_bb6756664727_0141",
+    "run_id": "bb6756664727",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/bb6756664727/recording.wav",
+    "channel": "right",
+    "text": "Cool, um, so what is the best email to reach you at?",
+    "duration_sec": 4.8,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_bb6756664727_0142",
+    "run_id": "bb6756664727",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/bb6756664727/recording.wav",
+    "channel": "right",
+    "text": "Got it, so that is alex@acmeinsurance.com, is that right?",
+    "duration_sec": 4.68,
+    "agent_name": "agenticwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_f5f7088ea4c3_0143",
+    "run_id": "f5f7088ea4c3",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/f5f7088ea4c3/recording.wav",
+    "channel": "right",
+    "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?",
+    "duration_sec": 3.84,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_f5f7088ea4c3_0144",
+    "run_id": "f5f7088ea4c3",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/f5f7088ea4c3/recording.wav",
+    "channel": "right",
+    "text": "Nice to meet you, Alex. So are you a Guidewire customer, or are you calling on behalf of a customer?",
+    "duration_sec": 3.78,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_f5f7088ea4c3_0145",
+    "run_id": "f5f7088ea4c3",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/f5f7088ea4c3/recording.wav",
+    "channel": "right",
+    "text": "Got it. So which company are you with?",
+    "duration_sec": 3.63,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_f5f7088ea4c3_0146",
+    "run_id": "f5f7088ea4c3",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/f5f7088ea4c3/recording.wav",
+    "channel": "right",
+    "text": "Got it. And what is your role there?",
+    "duration_sec": 6.21,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_f5f7088ea4c3_0147",
+    "run_id": "f5f7088ea4c3",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/f5f7088ea4c3/recording.wav",
+    "channel": "right",
+    "text": "So what has you looking at Agentic FNOL right now?",
+    "duration_sec": 4.59,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_f5f7088ea4c3_0148",
+    "run_id": "f5f7088ea4c3",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/f5f7088ea4c3/recording.wav",
+    "channel": "right",
+    "text": "Cool. So are you focusing mainly on real-time conversational intake or the backend routing side?",
+    "duration_sec": 3.66,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_f5f7088ea4c3_0149",
+    "run_id": "f5f7088ea4c3",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/f5f7088ea4c3/recording.wav",
+    "channel": "right",
+    "text": "So what we have today is Concierge takes the whole first notice over the phone with natural back-and-forth conversation, no fixed scripts or phone trees. It extracts the details dynamically and writes straight into Claim Center, so the claim is created and routed right as the call finishes.",
+    "duration_sec": 13.74,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_f5f7088ea4c3_0150",
+    "run_id": "f5f7088ea4c3",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/f5f7088ea4c3/recording.wav",
+    "channel": "right",
+    "text": "And are there any other use cases you would be looking for Concierge to solve?",
+    "duration_sec": 6.24,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_f5f7088ea4c3_0151",
+    "run_id": "f5f7088ea4c3",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/f5f7088ea4c3/recording.wav",
+    "channel": "right",
+    "text": "Cool. Um, so what is the best work email to reach you at?",
+    "duration_sec": 5.55,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  },
+  {
+    "id": "clara_f5f7088ea4c3_0152",
+    "run_id": "f5f7088ea4c3",
+    "source_wav": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/f5f7088ea4c3/recording.wav",
+    "channel": "right",
+    "text": "Got it. So that is alex@dialpad.com, is that right?",
+    "duration_sec": 4.08,
+    "agent_name": "agenticfnolwaitlist-local",
+    "persona_id": "john-collision"
+  }
+]

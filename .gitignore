@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/clara/wavs/
+data/clara/preprocessed/
+outputs/
+*.pt
+*.bin
+*.safetensors
+wandb/
+.aws-instance.json
+infra/instance.env

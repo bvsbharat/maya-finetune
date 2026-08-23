@@ -1,0 +1,45 @@
+# Clara = right channel of stereo recording.wav (gwvs recorder)
+runs_dir: "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs"
+
+data_dir: "data/clara"
+wavs_subdir: "wavs"
+metadata_file: "metadata_final.json"
+
+clara_description: >-
+  Realistic female conversational agent voice, American English accent,
+  warm clear timbre, professional and friendly pacing, mid pitch,
+  natural call-center delivery
+
+sample_rate: 24000
+target_lufs: -23.0
+channel: right
+min_clip_sec: 1.0
+max_clip_sec: 14.0
+
+model_id: "maya-research/maya1"
+snac_id: "hubertsiuzdak/snac_24khz"
+output_dir: "outputs/clara-lora"
+
+lora:
+  r: 64
+  alpha: 128
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+train:
+  bf16: true
+  load_in_4bit: false
+  lr: 1.0e-4
+  epochs: 4
+  per_device_batch_size: 1
+  grad_accum: 8
+  warmup_ratio: 0.05
+  logging_steps: 5
+  save_steps: 50
+  max_seq_len: 4096
+  seed: 42
+
+aws:
+  region: us-east-1
+  instance_type: g5.2xlarge
+  volume_gb: 200
