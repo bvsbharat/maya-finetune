@@ -1,0 +1,21 @@
+# LiveKit voice agent cascade (local GPU)
+# STT: faster-whisper large-v3 (Parakeet optional)
+# LLM: Ollama gpt-4o:latest (= qwen3.8:27b on this box)
+# TTS: Maya1 + Clara LoRA (chunk-streamed SNAC decode)
+
+livekit-agents>=1.2.0
+livekit-plugins-openai>=1.2.0
+livekit-plugins-silero>=1.2.0
+openai>=1.40.0
+numpy>=1.24
+soundfile>=0.12
+torch
+torchaudio
+transformers>=4.45
+peft>=0.14
+snac
+accelerate
+faster-whisper>=1.1.0
+pyyaml
+aiohttp
+python-dotenv

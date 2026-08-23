@@ -1,0 +1,230 @@
+{
+  "run_id": "71db9e1fa2bf",
+  "source": "/Users/bbhavnasi/Desktop/GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs/71db9e1fa2bf",
+  "version": "v5_fittext_longstitch",
+  "speakers": [
+    {
+      "role": "agent",
+      "wav": "ref_agent.wav",
+      "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. So what we have today is Yeah, and what is your role there? Got it. So which company are you interested for? Nice to meet you, Alex. So tell me a bit about what has you looking at Agentic FNOL right now.",
+      "duration_sec": 26.0,
+      "n_clips": 6,
+      "clips_used": [
+        "agent_00.wav",
+        "agent_08.wav",
+        "agent_10.wav",
+        "agent_04.wav",
+        "agent_02.wav",
+        "agent_06.wav"
+      ],
+      "sample_rate": 16000,
+      "label": "clara",
+      "display_name": "Clara (agent)"
+    },
+    {
+      "role": "caller",
+      "wav": "ref_caller.wav",
+      "text": "I\u2019m not a Guidewire customer myself. I\u2019m a software developer building a voice I\u2019m a software developer working on the voice agent and demo Yes, definitely. We\u2019d also be interested in roadside I\u2019m exploring this for my company\u2019s demo environment right now, You can reach me at alex.chen.demo@example.com.",
+      "duration_sec": 26.0,
+      "n_clips": 5,
+      "clips_used": [
+        "caller_03.wav",
+        "caller_11.wav",
+        "caller_09.wav",
+        "caller_05.wav",
+        "caller_13.wav"
+      ],
+      "sample_rate": 16000,
+      "label": "alex",
+      "display_name": "Alex / caller"
+    }
+  ],
+  "clips": {
+    "agent": [
+      {
+        "role": "agent",
+        "text_full": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?",
+        "text": "Hi, this is Clara from the Guidewire Agentic FNOL waitlist.",
+        "duration": 5.25,
+        "chars_per_sec": 11.24,
+        "path": "agent_00.wav",
+        "dyn": 0.09665,
+        "window": [
+          17.895,
+          24.034
+        ]
+      },
+      {
+        "role": "agent",
+        "text_full": "Nice to meet you, Alex. So are you a Guidewire customer? Or are you calling on behalf of a customer?",
+        "text": "Nice to meet you, Alex.",
+        "duration": 3.04,
+        "chars_per_sec": 7.57,
+        "path": "agent_02.wav",
+        "dyn": 0.0977,
+        "window": [
+          30.793,
+          39.593
+        ]
+      },
+      {
+        "role": "agent",
+        "text_full": "Got it. So which company are you interested for?",
+        "text": "Got it. So which company are you interested for?",
+        "duration": 5.04,
+        "chars_per_sec": 9.52,
+        "path": "agent_04.wav",
+        "dyn": 0.06361,
+        "window": [
+          45.243,
+          50.283
+        ]
+      },
+      {
+        "role": "agent",
+        "text_full": "So tell me a bit about what has you looking at Agentic FNOL right now.",
+        "text": "So tell me a bit about what has you looking at Agentic FNOL right now.",
+        "duration": 6.8,
+        "chars_per_sec": 10.29,
+        "path": "agent_06.wav",
+        "dyn": 0.01976,
+        "window": [
+          59.743,
+          66.543
+        ]
+      },
+      {
+        "role": "agent",
+        "text_full": "So what we have today is Concierge takes the whole first notice over the phone conversationally, asking the right questions for personal auto without static scripts, and writes straight into Claim Center so the claim is created and routed immediately. And are there any other use cases you would be looking for Concierge to solve?",
+        "text": "So what we have today is",
+        "duration": 2.0,
+        "chars_per_sec": 12.0,
+        "path": "agent_08.wav",
+        "dyn": 0.10368,
+        "window": [
+          95.746,
+          108.546
+        ]
+      },
+      {
+        "role": "agent",
+        "text_full": "Yeah, and what is your role there?",
+        "text": "Yeah, and what is your role there?",
+        "duration": 2.76,
+        "chars_per_sec": 12.32,
+        "path": "agent_10.wav",
+        "dyn": 0.09258,
+        "window": [
+          113.49,
+          117.41
+        ]
+      },
+      {
+        "role": "agent",
+        "text_full": "Cool. Um, so what is the best email to reach you at?",
+        "text": "Cool. Um, so what is the best email to reach you at?",
+        "duration": 5.36,
+        "chars_per_sec": 9.7,
+        "path": "agent_12.wav",
+        "dyn": 0.02471,
+        "window": [
+          124.191,
+          129.551
+        ]
+      }
+    ],
+    "caller": [
+      {
+        "role": "caller",
+        "text_full": "Hi Clara, I\u2019m Alex Chen.",
+        "text": "Hi Clara, I\u2019m Alex Chen.",
+        "duration": 3.12,
+        "chars_per_sec": 7.69,
+        "path": "caller_01.wav",
+        "dyn": 0.02188,
+        "window": [
+          20.834,
+          23.954
+        ]
+      },
+      {
+        "role": "caller",
+        "text_full": "I\u2019m not a Guidewire customer myself. I\u2019m a software developer building a voice agent demo for a personal auto FNOL use case.",
+        "text": "I\u2019m not a Guidewire customer myself. I\u2019m a software developer building a voice",
+        "duration": 6.0,
+        "chars_per_sec": 13.0,
+        "path": "caller_03.wav",
+        "dyn": 0.08313,
+        "window": [
+          38.72,
+          47.923
+        ]
+      },
+      {
+        "role": "caller",
+        "text_full": "I\u2019m exploring this for my company\u2019s demo environment right now, rather than for a specific carrier customer.",
+        "text": "I\u2019m exploring this for my company\u2019s demo environment right now,",
+        "duration": 5.57,
+        "chars_per_sec": 11.31,
+        "path": "caller_05.wav",
+        "dyn": 0.06964,
+        "window": [
+          51.822,
+          61.262
+        ]
+      },
+      {
+        "role": "caller",
+        "text_full": "We\u2019re building a voice-based personal auto claims intake demo, and Agentic FNOL seems like a strong fit for handling first notice of loss conversationally. I\u2019m mainly interested in early access to evaluate the experience and integration options.",
+        "text": "We\u2019re building a voice-based personal auto claims intake demo,",
+        "duration": 10.0,
+        "chars_per_sec": 6.2,
+        "path": "caller_07.wav",
+        "dyn": 0.02015,
+        "window": [
+          75.384,
+          88.584
+        ]
+      },
+      {
+        "role": "caller",
+        "text_full": "Yes, definitely. We\u2019d also be interested in roadside assistance intake, status updates, and helping triage simple follow-up questions after the initial claim is filed.",
+        "text": "Yes, definitely. We\u2019d also be interested in roadside",
+        "duration": 4.1,
+        "chars_per_sec": 12.68,
+        "path": "caller_09.wav",
+        "dyn": 0.07192,
+        "window": [
+          107.658,
+          116.69
+        ]
+      },
+      {
+        "role": "caller",
+        "text_full": "I\u2019m a software developer working on the voice agent and demo integration.",
+        "text": "I\u2019m a software developer working on the voice agent and demo",
+        "duration": 4.525,
+        "chars_per_sec": 13.26,
+        "path": "caller_11.wav",
+        "dyn": 0.07828,
+        "window": [
+          117.857,
+          124.541
+        ]
+      },
+      {
+        "role": "caller",
+        "text_full": "You can reach me at alex.chen.demo@example.com.",
+        "text": "You can reach me at alex.chen.demo@example.com.",
+        "duration": 4.96,
+        "chars_per_sec": 9.48,
+        "path": "caller_13.wav",
+        "dyn": 0.02055,
+        "window": [
+          130.009,
+          134.969
+        ]
+      }
+    ]
+  }
+}

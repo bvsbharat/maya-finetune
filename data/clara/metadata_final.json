@@ -4,607 +4,271 @@
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from Guidewire. I manage our agentic first notice of loss waitlist."
   },
   {
-    "id": "clara_087f03adb704_0002",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?"
+    "id": "clara_532dfe2ec073_0002",
+    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Um so are there any other use cases you would want Concierge to handle?"
   },
   {
-    "id": "clara_087f03adb704_0003",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So where are you working these days?"
+    "id": "clara_532dfe2ec073_0003",
+    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool, um so what is the best email to reach you at?"
   },
   {
-    "id": "clara_087f03adb704_0004",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Oh, nice! So tell me a bit about what challenges you are running into with personal auto intake right now."
+    "id": "clara_532dfe2ec073_0004",
+    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool so before I let you go, anything you want to ask me?"
   },
   {
-    "id": "clara_087f03adb704_0005",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> What we have today is Concierge takes the whole first notice over the phone as a natural conversation, asking the right follow-ups instead of a rigid script, and the claim is created and routed right into Claim Center. And after intake, folks usually look at things like claim status tracking, document submission, or coverage verification. Anything in that area you would want it to tackle next?"
+    "id": "clara_532dfe2ec073_0005",
+    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Simply put, Concierge is the name of our voice assistant that takes claim calls and files the claim for you. Does that help make sense of it?"
   },
   {
-    "id": "clara_087f03adb704_0006",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool. Um, so what is the best work email to reach you at?"
+    "id": "clara_532dfe2ec073_0006",
+    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Concierge acts as the virtual claims agent on the phone with the customer. Anything else you want to ask?"
   },
   {
-    "id": "clara_26101f02cd33_0007",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [calm] Hi, this is Clara from the Guidewire Agentic F N O L waitlist. [break] If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?"
+    "id": "clara_532dfe2ec073_0007",
+    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Anyway, that is everything I need. Thanks so much for your time. The team will follow up with you. Hope you have a good one."
   },
   {
-    "id": "clara_26101f02cd33_0008",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [relaxed] Nice to meet you, Bharat. So [break] are you a Guidewire customer, or are you calling on behalf of a customer?"
-  },
-  {
-    "id": "clara_26101f02cd33_0009",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [relaxed] Got it. Um [break] so [break] which company are you interested for?"
-  },
-  {
-    "id": "clara_26101f02cd33_0010",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [relaxed] Got it. And what do you do there?"
-  },
-  {
-    "id": "clara_26101f02cd33_0011",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [curious] So [break] tell me a bit about how F N O L works for you today."
-  },
-  {
-    "id": "clara_26101f02cd33_0012",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [calm] Ya? Still"
-  },
-  {
-    "id": "clara_26101f02cd33_0013",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [curious] Ya [break] and how is that working out for your policyholders?"
-  },
-  {
-    "id": "clara_26101f02cd33_0014",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [confident] So what we have today is, Concierge takes the whole first notice over the"
-  },
-  {
-    "id": "clara_532dfe2ec073_0015",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [curious] Um [break] so [break] are there any other use cases you would want Concierge to handle?"
-  },
-  {
-    "id": "clara_532dfe2ec073_0016",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [calm] And [break] do you have a timeline in mind for going live with agentic F N O L?"
-  },
-  {
-    "id": "clara_532dfe2ec073_0017",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [relaxed] Cool, um [break] so [break] what is the best email to reach you at?"
-  },
-  {
-    "id": "clara_532dfe2ec073_0018",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [satisfied] Got it, so that is bharat b u s at icloud dot com, is that right?"
-  },
-  {
-    "id": "clara_532dfe2ec073_0019",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [relaxed] Cool [break] so before I let you go, anything you want to ask me?"
-  },
-  {
-    "id": "clara_532dfe2ec073_0020",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [calm] Concierge handles the entire first notice of loss conversation over the phone, asking the right questions dynamically rather than following a rigid script. [break] It creates and routes"
-  },
-  {
-    "id": "clara_532dfe2ec073_0021",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [calm] Agentic F N O L means an intelligent voice agent manages the initial claim report directly with the policyholder, understanding their details and creating"
-  },
-  {
-    "id": "clara_532dfe2ec073_0022",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [calm] Concierge is Guidewire's specific product for agentic F N O L. [break] It connects directly into ClaimCenter to handle those first notice calls automatically. [break] [relaxed] Anything else I can answer for you?"
-  },
-  {
-    "id": "clara_532dfe2ec073_0023",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [calm] Simply put, Concierge is the name of our voice assistant that takes claim calls and files the claim for you. [break] [relaxed] Does that help make sense of it?"
-  },
-  {
-    "id": "clara_532dfe2ec073_0024",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [calm] Concierge acts as the virtual claims agent on the phone with the customer. [break] [relaxed] Anything else you want to ask?"
-  },
-  {
-    "id": "clara_532dfe2ec073_0025",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [calm] Not at all, [break] I am happy to take whatever time you need. [break] What other questions are on your mind?"
-  },
-  {
-    "id": "clara_532dfe2ec073_0026",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> [grateful] Anyway, that is everything I need. Thanks so much for your time. [break] The team will follow up with you. Hope you have a good one."
-  },
-  {
-    "id": "clara_70916f43b7f2_0027",
+    "id": "clara_70916f43b7f2_0008",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from Guidewire. I manage our agentic first notice of loss waitlist."
   },
   {
-    "id": "clara_70916f43b7f2_0028",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Awesome. To get things started, what is your name?"
-  },
-  {
-    "id": "clara_70916f43b7f2_0029",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Sam. So, where are you working these days?"
-  },
-  {
-    "id": "clara_70916f43b7f2_0030",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice. Nexa Auto Insurance. Um, so tell me a bit about what has you looking into an agentic first notice of loss right now?"
-  },
-  {
-    "id": "clara_70916f43b7f2_0031",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> That makes total sense. With Concierge, callers just talk through their claim naturally with no phone trees, and it gets created and routed right into Claim Center on the spot. And after intake, folks usually look at things like claims status tracking, document submission, or coverage verification. Is there anything like that you'd want to tackle next?"
-  },
-  {
-    "id": "clara_70916f43b7f2_0032",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. Um, so what is the best work email to reach you at?"
-  },
-  {
-    "id": "clara_70916f43b7f2_0033",
+    "id": "clara_70916f43b7f2_0009",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Thank you so much for your time today, Sam. You are all set on the Agentic FNOL waitlist, and our team will be in touch with you shortly at sam@nexaauto.com. Have a wonderful day. And goodbye."
   },
   {
-    "id": "clara_70916f43b7f2_0034",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> You're very welcome, Sam. Have a great day. Goodbye!"
-  },
-  {
-    "id": "clara_71db9e1fa2bf_0035",
+    "id": "clara_71db9e1fa2bf_0010",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?"
   },
   {
-    "id": "clara_71db9e1fa2bf_0036",
+    "id": "clara_71db9e1fa2bf_0011",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So are you a Guidewire customer? Or are you calling on behalf of a customer?"
   },
   {
-    "id": "clara_71db9e1fa2bf_0037",
+    "id": "clara_71db9e1fa2bf_0012",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So which company are you interested for?"
   },
   {
-    "id": "clara_71db9e1fa2bf_0038",
+    "id": "clara_71db9e1fa2bf_0013",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So tell me a bit about what has you looking at Agentic FNOL right now."
   },
   {
-    "id": "clara_71db9e1fa2bf_0039",
+    "id": "clara_71db9e1fa2bf_0014",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what we have today is Concierge takes the whole first notice over the phone conversationally, asking the right questions for personal auto without static scripts, and writes straight into Claim Center so the claim is created and routed immediately. And are there any other use cases you would be looking for Concierge to solve?"
   },
   {
-    "id": "clara_71db9e1fa2bf_0040",
+    "id": "clara_71db9e1fa2bf_0015",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Yeah, and what is your role there?"
   },
   {
-    "id": "clara_71db9e1fa2bf_0041",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool. Um, so what is the best email to reach you at?"
-  },
-  {
-    "id": "clara_71db9e1fa2bf_0042",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So that is alex.chen.demo@example.com, is that right?"
-  },
-  {
-    "id": "clara_73500e1de380_0043",
+    "id": "clara_73500e1de380_0016",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?"
   },
   {
-    "id": "clara_73500e1de380_0044",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Are you still with me?"
-  },
-  {
-    "id": "clara_73500e1de380_0045",
+    "id": "clara_73500e1de380_0017",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Just checking in. Are you still there?"
   },
   {
-    "id": "clara_74940db87025_0046",
+    "id": "clara_74940db87025_0018",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?"
   },
   {
-    "id": "clara_74940db87025_0047",
+    "id": "clara_74940db87025_0019",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So are you a Guidewire customer? Or are you calling on behalf of a customer?"
   },
   {
-    "id": "clara_74940db87025_0048",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So which company are you interested for?"
-  },
-  {
-    "id": "clara_74940db87025_0049",
+    "id": "clara_74940db87025_0020",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So tell me a bit about how FNOL works for you today, or what has you looking at Agentic FNOL?"
   },
   {
-    "id": "clara_74940db87025_0050",
+    "id": "clara_74940db87025_0021",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Yeah. That makes total sense. And is that mostly to cut down on call handling time or more about getting better structured data right away?"
   },
   {
-    "id": "clara_74940db87025_0051",
+    "id": "clara_74940db87025_0022",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what we have today is Concierge takes the whole first notice over the phone as a real conversation. Policyholder just talks, no forms or menus, and the claim is created and routed straight into Claim Center by the time they hang up, with all the structured details captured. And are there any other use cases you would be looking for Concierge to solve?"
   },
   {
-    "id": "clara_74940db87025_0052",
+    "id": "clara_74940db87025_0023",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Yeah, and what do you do there?"
   },
   {
-    "id": "clara_74940db87025_0053",
+    "id": "clara_74940db87025_0024",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool. So what is the best email to reach you at?"
   },
   {
-    "id": "clara_74940db87025_0054",
+    "id": "clara_74940db87025_0025",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So that is alex@example.com, is that right?"
   },
   {
-    "id": "clara_74940db87025_0055",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Thanks so much for sharing all that, Alex. Have a great day!"
-  },
-  {
-    "id": "clara_826800d8ee41_0056",
+    "id": "clara_826800d8ee41_0026",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from Guidewire. I manage our agentic first notice of loss waitlist."
   },
   {
-    "id": "clara_826800d8ee41_0057",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Awesome. Um, so what is your name?"
-  },
-  {
-    "id": "clara_826800d8ee41_0058",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So are you a Guidewire customer or are you calling on behalf of a customer?"
-  },
-  {
-    "id": "clara_826800d8ee41_0059",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. Um, so which company are you interested for?"
-  },
-  {
-    "id": "clara_826800d8ee41_0060",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So tell me a bit about how FNOL works for you today."
-  },
-  {
-    "id": "clara_826800d8ee41_0061",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Yeah, and how long does the intake process usually take today?"
-  },
-  {
-    "id": "clara_826800d8ee41_0062",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So Concierge takes the whole first notice over the phone as a natural conversation, creating and routing the claim directly in Claim Center by the time they hang up. That really helps cut down on that intake time. And are there any other use cases you would be looking for Concierge to solve?"
-  },
-  {
-    "id": "clara_826800d8ee41_0063",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Yeah, and what do you do there?"
-  },
-  {
-    "id": "clara_826800d8ee41_0064",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool. Um, so what is the best email to reach you at?"
-  },
-  {
-    "id": "clara_826800d8ee41_0065",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Thank you so much for your time today, Alex. You're all set on the waitlist, and our team will be in touch shortly with next steps. Have a wonderful day!"
-  },
-  {
-    "id": "clara_94f82cc7229e_0066",
+    "id": "clara_94f82cc7229e_0027",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, What is your name?"
   },
   {
-    "id": "clara_94f82cc7229e_0067",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So are you a Guidewire customer? Or are you calling on behalf of a customer?"
-  },
-  {
-    "id": "clara_94f82cc7229e_0068",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. Um, so which company are you interested for?"
-  },
-  {
-    "id": "clara_94f82cc7229e_0069",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice. And what do you do there?"
-  },
-  {
-    "id": "clara_94f82cc7229e_0070",
+    "id": "clara_94f82cc7229e_0028",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Gotcha. Um, so what is you looking at, AgenticFNOL, right now?"
   },
   {
-    "id": "clara_94f82cc7229e_0071",
+    "id": "clara_94f82cc7229e_0029",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool. So what is the trickiest part of that auto workflow for you today?"
   },
   {
-    "id": "clara_94f82cc7229e_0072",
+    "id": "clara_94f82cc7229e_0030",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what Concierge does is handle that whole first notice conversation naturally over the phone, capturing all the key loss details without rigid scripts. It writes directly into Claim Center in real time, so the claim is created and routed before the caller even hangs up."
   },
   {
-    "id": "clara_94f82cc7229e_0073",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> And are there any other use cases you would be looking for Concierge to solve?"
-  },
-  {
-    "id": "clara_94f82cc7229e_0074",
+    "id": "clara_94f82cc7229e_0031",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> That makes a lot of sense. So what is the best email to reach you at?"
   },
   {
-    "id": "clara_94f82cc7229e_0075",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So that is alex.chen@apple.com, is that right?"
-  },
-  {
-    "id": "clara_94f82cc7229e_0076",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool, so before I let you go, anything you want to ask me?"
-  },
-  {
-    "id": "clara_94f82cc7229e_0077",
+    "id": "clara_94f82cc7229e_0032",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So that is a conversation for the team, but I can definitely flag those questions when I pass this along. Anything else you want to ask?"
   },
   {
-    "id": "clara_94f82cc7229e_0078",
+    "id": "clara_94f82cc7229e_0033",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Anyway. That is everything I need. Thanks so much for your time. The team will follow up with you. Hope you have a good one."
   },
   {
-    "id": "clara_9cc36771aadd_0079",
+    "id": "clara_9cc36771aadd_0034",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, What is your name?"
   },
   {
-    "id": "clara_9cc36771aadd_0080",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So are you a Guidewire customer yourself? or calling on behalf of a customer."
-  },
-  {
-    "id": "clara_9cc36771aadd_0081",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So which company are you interested for?"
-  },
-  {
-    "id": "clara_9cc36771aadd_0082",
+    "id": "clara_9cc36771aadd_0035",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. And what do you do there?"
   },
   {
-    "id": "clara_9cc36771aadd_0083",
+    "id": "clara_9cc36771aadd_0036",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Very cool. So tell me a bit about what has you exploring Agentic FNOL for that personal autoflow right now?"
   },
   {
-    "id": "clara_9cc36771aadd_0084",
+    "id": "clara_9cc36771aadd_0037",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what we have today is Concierge takes the whole first notice over the phone as a natural conversation with no phone tree or forms. It writes straight into Claim Center, so the claim is created and routed before the call even wraps up. That way, your policyholders get that smooth conversational experience without the backend delays."
   },
   {
-    "id": "clara_9cc36771aadd_0085",
+    "id": "clara_9cc36771aadd_0038",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> And are there any other use cases you would be looking for Concierge to solve?"
   },
   {
-    "id": "clara_9cc36771aadd_0086",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> That makes a lot of sense. And do you have a timeline in mind for going live with Agentic FNOL?"
-  },
-  {
-    "id": "clara_9cc36771aadd_0087",
+    "id": "clara_9cc36771aadd_0039",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Sounds like a solid plan. Um, so what is the best work email to reach you at?"
   },
   {
-    "id": "clara_9cc36771aadd_0088",
+    "id": "clara_9cc36771aadd_0040",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So that is alex@apple.com, is that right?"
   },
   {
-    "id": "clara_a1a3a3a78fb5_0089",
+    "id": "clara_a1a3a3a78fb5_0041",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?"
   },
   {
-    "id": "clara_a1a3a3a78fb5_0090",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. Um, so are you a Guidewire customer? Or are you calling on behalf of a customer?"
-  },
-  {
-    "id": "clara_a1a3a3a78fb5_0091",
+    "id": "clara_a1a3a3a78fb5_0042",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. Um, so which company are you with?"
   },
   {
-    "id": "clara_a1a3a3a78fb5_0092",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool. Um, so tell me a bit about how FNOL works for you today."
-  },
-  {
-    "id": "clara_a1a3a3a78fb5_0093",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Yeah, that makes sense. And what is the biggest pain point with the call center handling it right now?"
-  },
-  {
-    "id": "clara_a1a3a3a78fb5_0094",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what we have today is Concierge takes the whole first notice over the phone with no wait time. The policyholder just talks naturally, and the routine claim is created and routed straight into Claim Center by the time they hang up. That way, your adjusters only step in on the complex files."
-  },
-  {
-    "id": "clara_a1a3a3a78fb5_0095",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> And are there any other use cases you would be looking for Concierge to solve?"
-  },
-  {
-    "id": "clara_a1a3a3a78fb5_0096",
+    "id": "clara_a1a3a3a78fb5_0043",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool. Um, so what is the best work email to reach you at?"
   },
   {
-    "id": "clara_a1a3a3a78fb5_0097",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So that is alex.mercer@apextech.com, is that right?"
-  },
-  {
-    "id": "clara_a5e846594b03_0098",
+    "id": "clara_a5e846594b03_0044",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, What is your name?"
   },
   {
-    "id": "clara_a5e846594b03_0099",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So are you a Guidewire customer, or are you calling on behalf of a customer?"
-  },
-  {
-    "id": "clara_a5e846594b03_0100",
+    "id": "clara_a5e846594b03_0045",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So which company are you with?"
   },
   {
-    "id": "clara_a5e846594b03_0101",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So tell me a bit about how FNOL works for you today."
-  },
-  {
-    "id": "clara_a5e846594b03_0102",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Yeah, that makes sense. And is the goal mainly cutting down handle times for those call centers or handling off-hours volume?"
-  },
-  {
-    "id": "clara_a5e846594b03_0103",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what we have with Concierge is taking that entire intake over the phone conversationally— no forms or menu trees needed. It routes and creates the claim right away, so you get that 24/7 coverage without needing extra staffing."
-  },
-  {
-    "id": "clara_a5e846594b03_0104",
+    "id": "clara_a5e846594b03_0046",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> It asks natural follow-ups for specific loss details like location and drivers, just like an adjuster would. Are there any other use cases you would be looking for Concierge to solve?"
   },
   {
-    "id": "clara_a5e846594b03_0105",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool! So what is the best email to reach you at?"
-  },
-  {
-    "id": "clara_a5e846594b03_0106",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So that is alex@apexinsurancetech.com, is that right?"
-  },
-  {
-    "id": "clara_aa8cdc2b682d_0107",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, What is your name?"
-  },
-  {
-    "id": "clara_aa8cdc2b682d_0108",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So are you a Guidewire customer? Or are you calling on behalf of a customer?"
-  },
-  {
-    "id": "clara_aa8cdc2b682d_0109",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So which company are you interested for?"
-  },
-  {
-    "id": "clara_aa8cdc2b682d_0110",
+    "id": "clara_aa8cdc2b682d_0047",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. And what do you do there?"
   },
   {
-    "id": "clara_aa8cdc2b682d_0111",
+    "id": "clara_aa8cdc2b682d_0048",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Oh, nice! So tell me a bit about what has you looking at Agentic FNOl right now?"
   },
   {
-    "id": "clara_aa8cdc2b682d_0112",
+    "id": "clara_aa8cdc2b682d_0049",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Yeah. That makes sense. Is there a specific part of the intake conversation you are finding trickiest to automate today?"
   },
   {
-    "id": "clara_aa8cdc2b682d_0113",
+    "id": "clara_aa8cdc2b682d_0050",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what we have today is Concierge takes the whole first notice over the phone as a natural conversation— no fixed scripts or menu trees. It dynamically asks the right follow-ups and right structured data straight into Claim Center, so the claim is created and routed before the caller even hangs up."
   },
   {
-    "id": "clara_aa8cdc2b682d_0114",
+    "id": "clara_aa8cdc2b682d_0051",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> And are there any other use cases you would be looking for Concierge to solve?"
   },
   {
-    "id": "clara_aa8cdc2b682d_0115",
+    "id": "clara_aa8cdc2b682d_0052",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. And do you have a timeline in mind for going live with Agentic FNOL?"
   },
   {
-    "id": "clara_aa8cdc2b682d_0116",
+    "id": "clara_aa8cdc2b682d_0053",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool. Um, so what is the best email to reach you at?"
   },
   {
-    "id": "clara_aa8cdc2b682d_0117",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So that is alex@apple.com, is that right?"
-  },
-  {
-    "id": "clara_aa8cdc2b682d_0118",
+    "id": "clara_aa8cdc2b682d_0054",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool, so before I let you go, Anything you want to ask me?"
   },
   {
-    "id": "clara_aa8cdc2b682d_0119",
+    "id": "clara_aa8cdc2b682d_0055",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So the team works closely with early access partners on setup and Claim Center integration, but the exact technical details and process are conversations for the product team. I can definitely flag that question when I pass your info along. Anything else?"
   },
   {
-    "id": "clara_aa8cdc2b682d_0120",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Anyway. That is everything I need. Thanks so much for your time. The team will follow up with you. Hope you have a good one."
-  },
-  {
-    "id": "clara_b91b79dd26ac_0121",
+    "id": "clara_b91b79dd26ac_0056",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, What is your name?"
   },
   {
-    "id": "clara_b91b79dd26ac_0122",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So are you a Guidewire customer, or are you calling on behalf of a customer?"
-  },
-  {
-    "id": "clara_b91b79dd26ac_0123",
+    "id": "clara_b91b79dd26ac_0057",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So which company are you interested for?"
   },
   {
-    "id": "clara_b91b79dd26ac_0124",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. And what do you do there?"
-  },
-  {
-    "id": "clara_b91b79dd26ac_0125",
+    "id": "clara_b91b79dd26ac_0058",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Oh, nice. So what has you looking at Agentic FNOL for that demo specifically?"
   },
   {
-    "id": "clara_b91b79dd26ac_0126",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what Concierge does is take the whole first notice over the phone as a natural conversation. The policyholder just talks with no forms or menu trees, and the claim is created and routed directly into Claim Center by the time they hang up."
-  },
-  {
-    "id": "clara_b91b79dd26ac_0127",
+    "id": "clara_b91b79dd26ac_0059",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> And are there any other use cases you would be looking for Concierge to solve?"
   },
   {
-    "id": "clara_b91b79dd26ac_0128",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> And do you have a timeline in mind for going live with Agentic FNOL?"
-  },
-  {
-    "id": "clara_b91b79dd26ac_0129",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool, um, so what is the best email to reach you at?"
-  },
-  {
-    "id": "clara_b91b79dd26ac_0130",
+    "id": "clara_b91b79dd26ac_0060",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So that is alex@apple.com, is that right?"
   },
   {
-    "id": "clara_b91b79dd26ac_0131",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool, so before I let you go, Anything you want to ask me?"
-  },
-  {
-    "id": "clara_b91b79dd26ac_0132",
+    "id": "clara_b91b79dd26ac_0061",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Early access is tailored with our product team to test out the voice flow directly with ClaimCenter. For specific setup details and technical requirements, that is a conversation for the team, and I can flag your demo timeline when I pass this along. Anything else?"
   },
   {
-    "id": "clara_b91b79dd26ac_0133",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Anyway. That is everything I need. Thanks so much for your time. The team will follow up with you. Hope you have a good one."
-  },
-  {
-    "id": "clara_bb6756664727_0134",
+    "id": "clara_bb6756664727_0062",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?"
   },
   {
-    "id": "clara_bb6756664727_0135",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So are you a Guidewire customer or are you calling on behalf of a customer?"
-  },
-  {
-    "id": "clara_bb6756664727_0136",
+    "id": "clara_bb6756664727_0063",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So which company are you interested for?"
   },
   {
-    "id": "clara_bb6756664727_0137",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So tell me a bit about how FNOL works for you today."
-  },
-  {
-    "id": "clara_bb6756664727_0138",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Yeah, and what does your cycle time look like from that first call to the claim getting set up?"
-  },
-  {
-    "id": "clara_bb6756664727_0139",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what we have today is concierge takes the whole first notice over the phone. Policyholder just talks, no forms, and the claim is created and routed straight into Claim Center by the time they hang up. So that 24 to 48 hour window drops to real time automatically."
-  },
-  {
-    "id": "clara_bb6756664727_0140",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> And are there any other use cases you would be looking for Concierge to solve?"
-  },
-  {
-    "id": "clara_bb6756664727_0141",
+    "id": "clara_bb6756664727_0064",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool, um, so what is the best email to reach you at?"
   },
   {
-    "id": "clara_bb6756664727_0142",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it, so that is alex@acmeinsurance.com, is that right?"
-  },
-  {
-    "id": "clara_f5f7088ea4c3_0143",
+    "id": "clara_f5f7088ea4c3_0065",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Hi, this is Clara from the Guidewire Agentic FNOL waitlist. If you are interested in early access, I would love to learn a bit about you. To get started, what is your name?"
   },
   {
-    "id": "clara_f5f7088ea4c3_0144",
+    "id": "clara_f5f7088ea4c3_0066",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Nice to meet you, Alex. So are you a Guidewire customer, or are you calling on behalf of a customer?"
   },
   {
-    "id": "clara_f5f7088ea4c3_0145",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So which company are you with?"
-  },
-  {
-    "id": "clara_f5f7088ea4c3_0146",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. And what is your role there?"
-  },
-  {
-    "id": "clara_f5f7088ea4c3_0147",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what has you looking at Agentic FNOL right now?"
-  },
-  {
-    "id": "clara_f5f7088ea4c3_0148",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool. So are you focusing mainly on real-time conversational intake or the backend routing side?"
-  },
-  {
-    "id": "clara_f5f7088ea4c3_0149",
+    "id": "clara_f5f7088ea4c3_0067",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> So what we have today is Concierge takes the whole first notice over the phone with natural back-and-forth conversation, no fixed scripts or phone trees. It extracts the details dynamically and writes straight into Claim Center, so the claim is created and routed right as the call finishes."
   },
   {
-    "id": "clara_f5f7088ea4c3_0150",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> And are there any other use cases you would be looking for Concierge to solve?"
-  },
-  {
-    "id": "clara_f5f7088ea4c3_0151",
+    "id": "clara_f5f7088ea4c3_0068",
     "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Cool. Um, so what is the best work email to reach you at?"
-  },
-  {
-    "id": "clara_f5f7088ea4c3_0152",
-    "formatted_text": "<description=\"Realistic female conversational agent voice, American English accent, warm clear timbre, professional and friendly pacing, mid pitch, natural call-center delivery\"> Got it. So that is alex@dialpad.com, is that right?"
   }
 ]

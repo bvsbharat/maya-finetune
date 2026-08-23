@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
-"""Build Maya1 Clara dataset: VAD on right channel + agent turn texts (in order)."""
+"""Build Maya1 Clara dataset with timestamp-aligned right-channel slices.
+
+Previous bug: VAD segments were zip-paired with agent texts by count, so many
+clips had the wrong transcript. That poisoned LoRA and produced noisy speech.
+"""
 
 from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import wave
 from pathlib import Path
 
 import numpy as np
 import yaml
-
-try:
-    import webrtcvad
-except ImportError:
-    webrtcvad = None
 
 try:
     import pyloudnorm as pyln
@@ -28,6 +28,7 @@ except ImportError:
     librosa = None
 
 ROOT = Path(__file__).resolve().parents[1]
+CARTESIA_TAG_RE = re.compile(r"\[[^\]]+\]")
 
 
 def load_config(path: Path) -> dict:
@@ -82,70 +83,89 @@ def normalize_lufs(x: np.ndarray, sr: int, target: float) -> np.ndarray:
         return (x / peak * 0.9).astype(np.float32)
 
 
-def vad_segments(audio: np.ndarray, sr: int, min_sec: float, max_sec: float) -> list[tuple[int, int]]:
-    """Return speech (start,end) sample indices on `audio` at `sr`."""
-    # Energy VAD (robust; webrtc optional). Frame 30ms.
+def clean_text(text: str) -> str:
+    text = CARTESIA_TAG_RE.sub(" ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def trim_speech(audio: np.ndarray, sr: int, min_sec: float, max_sec: float) -> np.ndarray | None:
+    if len(audio) < int(min_sec * sr * 0.8):
+        return None
     frame = int(0.03 * sr)
-    hop = frame
-    energies = []
-    for i in range(0, len(audio) - frame, hop):
-        energies.append(float(np.sqrt(np.mean(audio[i : i + frame] ** 2))))
+    if frame < 1 or len(audio) < frame:
+        return None
+    energies = [
+        float(np.sqrt(np.mean(audio[i : i + frame] ** 2)))
+        for i in range(0, len(audio) - frame, frame)
+    ]
     if not energies:
-        return []
-    energies = np.array(energies)
-    thr = max(0.01, float(np.median(energies)) * 1.8)
-    flags = energies > thr
-
-    # merge with hysteresis
-    segs = []
-    start = None
-    silence = 0
-    max_silence = 8  # ~240ms
-    for i, f in enumerate(flags):
-        if f:
-            if start is None:
-                start = i
-            silence = 0
-        elif start is not None:
-            silence += 1
-            if silence >= max_silence:
-                end = i - silence + 1
-                segs.append((start, end))
-                start = None
-                silence = 0
-    if start is not None:
-        segs.append((start, len(flags)))
-
-    out = []
-    for a, b in segs:
-        s = a * hop
-        e = min(len(audio), b * hop + frame)
-        dur = (e - s) / sr
-        if dur < min_sec:
-            continue
-        # split long
-        max_n = int(max_sec * sr)
-        for i in range(s, e, max_n):
-            j = min(e, i + max_n)
-            if (j - i) / sr >= min_sec:
-                out.append((i, j))
-    return out
+        return None
+    thr = max(0.008, float(np.median(energies)) * 1.5)
+    flags = [e > thr for e in energies]
+    if not any(flags):
+        return None
+    first = next(i for i, f in enumerate(flags) if f)
+    last = len(flags) - 1 - next(i for i, f in enumerate(reversed(flags)) if f)
+    s = max(0, first * frame - int(0.05 * sr))
+    e = min(len(audio), (last + 1) * frame + int(0.08 * sr))
+    clip = audio[s:e]
+    max_n = int(max_sec * sr)
+    if len(clip) > max_n:
+        clip = clip[:max_n]
+    if len(clip) / sr < min_sec:
+        return None
+    return clip.astype(np.float32)
 
 
-def agent_texts(transcript: Path) -> tuple[list[str], dict]:
+def agent_turns(transcript: Path) -> tuple[list[dict], dict]:
     data = json.loads(transcript.read_text())
-    texts = []
-    for e in data.get("events", []):
-        if e.get("type") == "turn" and e.get("role") == "agent":
-            t = (e.get("text") or "").strip()
-            if t:
-                texts.append(t)
+    events = data.get("events") or []
+    if not events:
+        return [], {}
+    t0 = float(events[0]["ts"])
+    turns: list[dict] = []
+    for e in events:
+        if e.get("type") != "turn":
+            continue
+        role = e.get("role")
+        text = clean_text(e.get("text") or "")
+        if role not in ("agent", "caller") or not text:
+            continue
+        turns.append({"role": role, "text": text, "t": float(e["ts"]) - t0})
     meta = {
         "sim_id": data.get("sim_id") or transcript.parent.name,
         "persona_id": data.get("persona_id"),
         "agent_name": data.get("agent_name"),
     }
-    return texts, meta
+    return turns, meta
+
+
+def slice_agent_clips(
+    mono: np.ndarray,
+    sr: int,
+    turns: list[dict],
+    min_sec: float,
+    max_sec: float,
+) -> list[tuple[np.ndarray, str, float, float]]:
+    dur = len(mono) / sr
+    out: list[tuple[np.ndarray, str, float, float]] = []
+    for i, turn in enumerate(turns):
+        if turn["role"] != "agent":
+            continue
+        start = max(0.0, float(turn["t"]))
+        if i + 1 < len(turns):
+            end = min(dur, float(turns[i + 1]["t"]) - 0.05)
+        else:
+            end = min(dur, start + max_sec)
+        if end - start < min_sec * 0.8:
+            continue
+        if end - start > max_sec + 1.0:
+            end = start + max_sec
+        clip = trim_speech(mono[int(start * sr) : int(end * sr)], sr, min_sec, max_sec)
+        if clip is None:
+            continue
+        out.append((clip, turn["text"], start, end))
+    return out
 
 
 def main() -> int:
@@ -157,6 +177,9 @@ def main() -> int:
     runs_dir = Path(cfg["runs_dir"])
     data_dir = (ROOT / cfg["data_dir"]).resolve()
     wavs_dir = data_dir / cfg["wavs_subdir"]
+    if wavs_dir.exists():
+        for old in wavs_dir.glob("*.wav"):
+            old.unlink()
     wavs_dir.mkdir(parents=True, exist_ok=True)
 
     sr_out = int(cfg["sample_rate"])
@@ -184,8 +207,10 @@ def main() -> int:
 
         try:
             audio, sr = read_wav(wav_path)
-            mono = audio[:, 1] if audio.ndim == 2 and channel == "right" else (
-                audio[:, 0] if audio.ndim == 2 else audio
+            mono = (
+                audio[:, 1]
+                if audio.ndim == 2 and channel == "right"
+                else (audio[:, 0] if audio.ndim == 2 else audio)
             )
             mono = resample(mono, sr, sr_out)
             mono = normalize_lufs(mono, sr_out, float(cfg["target_lufs"]))
@@ -193,34 +218,14 @@ def main() -> int:
             print(f"skip audio {run.name}: {exc}")
             continue
 
-        texts, run_meta = agent_texts(tr_path)
-        if not texts:
-            print(f"skip {run.name}: no agent text")
+        turns, run_meta = agent_turns(tr_path)
+        clips = slice_agent_clips(mono, sr_out, turns, min_sec, max_sec)
+        if not clips:
+            print(f"skip {run.name}: no timestamp-aligned agent clips")
             continue
-
-        segs = vad_segments(mono, sr_out, min_sec, max_sec)
-        if not segs:
-            print(f"skip {run.name}: no VAD speech on {channel}")
-            continue
-
-        # Pair segments with texts. If counts differ, zip shortest and
-        # leftover long segs keep cycling last texts only if close counts.
-        n = min(len(segs), len(texts))
-        # Prefer matching by count: if more segs than texts, merge adjacent short segs
-        segs_use = segs[:n]
-        texts_use = texts[:n]
-        if len(segs) > len(texts):
-            # take longest N segments (more likely full agent utterances)
-            scored = sorted(segs, key=lambda ab: ab[1] - ab[0], reverse=True)[: len(texts)]
-            segs_use = sorted(scored, key=lambda ab: ab[0])
-            texts_use = texts
-            n = len(segs_use)
 
         n_before = clip_i
-        for (s, e), text in zip(segs_use, texts_use):
-            clip = mono[s:e]
-            if len(clip) / sr_out < min_sec:
-                continue
+        for clip, text, t0, t1 in clips:
             clip_i += 1
             cid = f"clara_{run.name}_{clip_i:04d}"
             write_wav_mono(wavs_dir / f"{cid}.wav", clip, sr_out)
@@ -232,22 +237,26 @@ def main() -> int:
                     "source_wav": str(wav_path),
                     "channel": channel,
                     "text": text,
+                    "t0_sec": round(t0, 3),
+                    "t1_sec": round(t1, 3),
                     "duration_sec": round(len(clip) / sr_out, 3),
                     "agent_name": run_meta.get("agent_name"),
                     "persona_id": run_meta.get("persona_id"),
                 }
             )
 
-        print(f"{run.name}: +{clip_i - n_before} clips (vad={len(segs)} texts={len(texts)})")
+        n_agent = sum(1 for t in turns if t["role"] == "agent")
+        print(f"{run.name}: +{clip_i - n_before} clips (agent_turns={n_agent})")
 
     meta_path = data_dir / cfg["metadata_file"]
     man_path = data_dir / "manifest.json"
     meta_path.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n")
     man_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
     total = sum(m["duration_sec"] for m in manifest)
-    print(f"\nWrote {len(rows)} clips ? {wavs_dir}")
+    tagged = sum(1 for r in rows if CARTESIA_TAG_RE.search(r["formatted_text"]))
+    print(f"\nWrote {len(rows)} clips -> {wavs_dir}")
     print(f"Metadata: {meta_path}")
-    print(f"Total Clara speech: {total / 60:.1f} min")
+    print(f"Total Clara speech: {total / 60:.1f} min | leftover cartesia tags: {tagged}")
     return 0 if rows else 2
 
 

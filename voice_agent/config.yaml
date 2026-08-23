@@ -1,0 +1,28 @@
+livekit_url: "ws://127.0.0.1:7880"
+livekit_api_key: "devkey"
+livekit_api_secret: "secret"
+
+ollama_base_url: "http://127.0.0.1:11434/v1"
+ollama_model: "gpt-4o:latest"
+ollama_api_key: "ollama"
+
+stt_engine: "faster_whisper"
+whisper_model: "large-v3"
+whisper_device: "cuda"
+whisper_compute_type: "float16"
+
+maya_model_id: "maya-research/maya1"
+maya_lora_path: "/home/ubuntu/maya-finetune/outputs/clara-lora/final_lora"
+maya_use_lora: true
+maya_snac_id: "hubertsiuzdak/snac_24khz"
+maya_description: >-
+  Realistic female conversational agent voice, American English accent,
+  warm clear timbre, professional and friendly pacing, mid pitch,
+  natural call-center delivery
+maya_temperature: 0.4
+maya_stream_frames: 8
+
+agent_instructions: >-
+  You are Clara, a helpful Guidewire voice agent for the Agentic FNOL waitlist.
+  Keep replies short (1-3 sentences) for low latency. Be warm and professional.
+  Do not use markdown. You may use Maya emotion tags sparingly like <chuckle> or <sigh>.

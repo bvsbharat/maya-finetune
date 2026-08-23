@@ -21,16 +21,17 @@ snac_id: "hubertsiuzdak/snac_24khz"
 output_dir: "outputs/clara-lora"
 
 lora:
-  r: 64
-  alpha: 128
+  # Gentler than first run (r=64/all-proj/4ep destroyed base quality)
+  r: 16
+  alpha: 32
   dropout: 0.05
-  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+  target_modules: [q_proj, k_proj, v_proj, o_proj]
 
 train:
   bf16: true
   load_in_4bit: false
-  lr: 1.0e-4
-  epochs: 4
+  lr: 5.0e-5
+  epochs: 2
   per_device_batch_size: 1
   grad_accum: 8
   warmup_ratio: 0.05

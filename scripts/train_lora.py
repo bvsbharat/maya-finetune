@@ -10,6 +10,7 @@ from pathlib import Path
 
 import numpy as np
 import torch
+import soundfile as sf
 import torchaudio
 import yaml
 from peft import LoraConfig, get_peft_model
@@ -68,7 +69,9 @@ class ClaraMayaDataset(Dataset):
 
     def __getitem__(self, idx: int) -> dict:
         row = self.rows[idx]
-        wav, sr = torchaudio.load(str(self.wavs / f"{row['id']}.wav"))
+        # Prefer soundfile: torchaudio>=2.9 load may require torchcodec
+        audio, sr = sf.read(str(self.wavs / f"{row['id']}.wav"), dtype="float32", always_2d=True)
+        wav = torch.from_numpy(audio.T)  # (channels, samples)
         if wav.shape[0] > 1:
             wav = wav.mean(0, keepdim=True)
         if sr != 24000:
@@ -79,6 +82,7 @@ class ClaraMayaDataset(Dataset):
         snac_ids = pack_snac(codes_cpu)
 
         text_ids = self.tokenizer(row["formatted_text"], add_special_tokens=False)["input_ids"]
+        # Match official Maya1 inference prompt layout exactly.
         input_ids = (
             [SOH_ID, BOS_ID]
             + text_ids
@@ -134,7 +138,7 @@ def main() -> None:
     tokenizer = AutoTokenizer.from_pretrained(cfg["model_id"], trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
         cfg["model_id"],
-        torch_dtype=torch.bfloat16 if cfg["train"]["bf16"] else torch.float16,
+        dtype=torch.bfloat16 if cfg["train"]["bf16"] else torch.float16,
         device_map="auto",
         trust_remote_code=True,
     )
@@ -164,13 +168,18 @@ def main() -> None:
     print(f"Dataset size: {len(ds)}")
 
     t = cfg["train"]
+    # transformers>=5 removed warmup_ratio; derive steps from dataset size
+    steps_per_epoch = max(1, (len(ds) + int(t["per_device_batch_size"]) * int(t["grad_accum"]) - 1)
+                          // (int(t["per_device_batch_size"]) * int(t["grad_accum"])))
+    total_steps = max(1, int(steps_per_epoch * float(t["epochs"])))
+    warmup_steps = max(1, int(total_steps * float(t.get("warmup_ratio", 0.0))))
     args_tr = TrainingArguments(
         output_dir=str(out_dir),
         num_train_epochs=float(t["epochs"]),
         per_device_train_batch_size=int(t["per_device_batch_size"]),
         gradient_accumulation_steps=int(t["grad_accum"]),
         learning_rate=float(t["lr"]),
-        warmup_ratio=float(t["warmup_ratio"]),
+        warmup_steps=warmup_steps,
         logging_steps=int(t["logging_steps"]),
         save_steps=int(t["save_steps"]),
         save_total_limit=3,
@@ -178,7 +187,7 @@ def main() -> None:
         fp16=not bool(t["bf16"]),
         remove_unused_columns=False,
         report_to=["tensorboard"],
-        dataloader_num_workers=2,
+        dataloader_num_workers=0,  # SNAC encode uses CUDA; avoid fork workers
         gradient_checkpointing=True,
         lr_scheduler_type="cosine",
         optim="adamw_torch",

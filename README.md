@@ -4,7 +4,7 @@ Fine-tune **maya-research/maya1** on **Clara** (Cartesia agent voice) from:
 
 `GW-Apps/0.GWVA/Runs/agentic-fnol-waitlist-pro/simulation/runs`
 
-Right channel = Clara · Left channel = sim caller (ignored).
+Right channel = Clara ï¿½ Left channel = sim caller (ignored).
 
 ## Status
 
@@ -42,11 +42,24 @@ chmod +x infra/*.sh
 # on instance: bash infra/remote_train.sh
 ```
 
-Default instance: **g5.2xlarge** (A10G 24GB) — enough for Maya1 3B bf16 LoRA.
+Default instance: **g5.2xlarge** (A10G 24GB) ï¿½ enough for Maya1 3B bf16 LoRA.
 
 ## What you get after training
 
 A LoRA adapter under `outputs/clara-lora/final_lora` that makes Maya1 speak more like **Clara** for waitlist-style dialogue.
+
+This does **not** permanently rewrite the base model. With the adapter **on**, outputs bias toward Clara; with it **off**, you get stock Maya1. It is not a Cartesia-style multi-voice library â€” one optional Clara adapter on top of Maya.
+
+## Demo (GPU)
+
+On the training instance:
+
+```bash
+bash infra/remote_serve.sh
+# open http://<public-ip>:7860
+```
+
+UI toggle: **Use Clara LoRA** on/off to A/B listen.
 
 ## Note on data size
 
