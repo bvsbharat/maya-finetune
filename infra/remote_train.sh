@@ -12,4 +12,4 @@ pip install -r requirements-train.txt
 # export HF_TOKEN=...
 
 python scripts/train_lora.py --config config.yaml
-echo "Training finished. Adapter in outputs/clara-lora/final_lora"
+echo "Training finished. Adapter in outputs/jacqueline-lora/final_lora"

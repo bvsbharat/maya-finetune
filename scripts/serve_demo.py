@@ -39,10 +39,35 @@ DEFAULT_DESC = (
     "natural call-center delivery"
 )
 
+EMOTION_TAGS = [
+    "<laugh>",
+    "<laugh_harder>",
+    "<sigh>",
+    "<chuckle>",
+    "<gasp>",
+    "<angry>",
+    "<excited>",
+    "<whisper>",
+    "<cry>",
+    "<scream>",
+    "<sing>",
+    "<snort>",
+    "<exhale>",
+    "<gulp>",
+    "<giggle>",
+    "<sarcastic>",
+    "<curious>",
+]
+
 SAMPLE_TEXTS = [
-    "Hi, this is Clara from Guidewire. I manage our agentic first notice of loss waitlist.",
+    "Hi, this is Clara from Guidewire. <chuckle> I manage our agentic first notice of loss waitlist.",
     "Thanks for calling. How can I help you with your claim today?",
-    "I've added you to the waitlist. You'll get an email when a spot opens up.",
+    "I've added you to the waitlist. <excited> You'll get an email when a spot opens up.",
+    "Wow. This place looks even better than I imagined. <laugh> I cannot stop smiling right now.",
+    "Welcome back to another episode of our podcast! <laugh_harder> Today we are diving into an absolutely fascinating topic.",
+    "After all we went through to pull him out of that mess <cry> I cannot believe he was the traitor.",
+    "You dare challenge me, mortal <snort> how amusing. Your kind always thinks they can win.",
+    "Hello! This is Maya1 <whisper> the best open source voice AI model with emotions.",
 ]
 
 
@@ -207,15 +232,26 @@ LoRA does **not** permanently rewrite Maya into Clara-only.
 - **Clara LoRA OFF** - stock Maya1
 
 If audio is noisy with LoRA on, compare with LoRA off (short finetune can add artifacts).
+
+Put emotion tags **inline** in the text (Maya1 official tags).
 """
         )
-        text = gr.Textbox(label="Text", lines=3, value=SAMPLE_TEXTS[0])
+        gr.Markdown("**Tags:** `" + "` | `".join(EMOTION_TAGS) + "`")
+        text = gr.Textbox(
+            label="Text (with optional emotion tags)",
+            lines=3,
+            value=SAMPLE_TEXTS[0],
+        )
         description = gr.Textbox(label="Voice description", lines=2, value=DEFAULT_DESC)
         with gr.Row():
             use_lora = gr.Checkbox(label="Use Clara LoRA", value=False)
             temperature = gr.Slider(0.1, 1.0, value=0.4, step=0.05, label="Temperature")
             max_tokens = gr.Slider(200, 2000, value=1200, step=50, label="Max new tokens")
-        gr.Examples(examples=[[t] for t in SAMPLE_TEXTS], inputs=[text])
+        gr.Examples(
+            examples=[[t] for t in SAMPLE_TEXTS],
+            inputs=[text],
+            label="Sample texts with emotion tags",
+        )
         btn = gr.Button("Generate", variant="primary")
         audio = gr.Audio(label="Output", type="filepath", format="wav")
         mode = gr.Markdown()
