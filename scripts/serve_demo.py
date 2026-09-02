@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 import tempfile
 from contextlib import nullcontext
 from pathlib import Path
@@ -33,17 +34,100 @@ SOA_ID = 128261
 BOS_ID = 128000
 TEXT_EOT_ID = 128009
 
-DEFAULT_DESC = (
-    "Realistic female conversational agent voice, American English accent, "
-    "warm clear timbre, professional and friendly pacing, mid pitch, "
-    "natural call-center delivery"
+# Official Maya1 inline tags are paralinguistic events, not Cartesia director
+# labels. Source: maya-research/maya1 README + emotions.txt / ComfyUI port.
+# Tone words like "curious" / "sympathetic" belong in the *description*.
+MAYA_EMOTION_TAGS = [
+    "<laugh>",
+    "<laugh_harder>",
+    "<giggle>",
+    "<chuckle>",
+    "<cry>",
+    "<sigh>",
+    "<gasp>",
+    "<whisper>",
+    "<angry>",
+    "<scream>",
+    "<snort>",
+    "<yawn>",
+    "<cough>",
+    "<sneeze>",
+    "<breathing>",
+    "<humming>",
+    "<throat_clearing>",
+]
+
+# Official Maya1 card: description is NATURAL LANGUAGE only.
+# Code wraps it as <description="..."> — do not type the XML yourself.
+DESC_FNOL = (
+    "Female, in her 30s with an American accent and is a customer support agent, "
+    "warm, clear diction, sad tone at medium intensity"
+)
+DESC_FNOL_CALM = (
+    "Female, in her 30s with an American accent and is a customer support agent, "
+    "warm, clear diction, calm pacing, neutral tone at medium intensity"
+)
+DESC_HOST = (
+    "Female, in her 30s with an American accent and is an event host, "
+    "energetic, clear diction"
+)
+DESC_VILLAIN = (
+    "Dark villain character, Male voice in their 40s with a British accent. "
+    "low pitch, gravelly timbre, slow pacing, angry tone at high intensity."
+)
+DESC_DEMON = (
+    "Demon character, Male voice in their 30s with a Middle Eastern accent. "
+    "screaming tone at high intensity."
+)
+DESC_GODDESS = (
+    "Mythical godlike magical character, Female voice in their 30s "
+    "slow pacing, curious tone at medium intensity."
 )
 
-SAMPLE_TEXTS = [
-    "Hi, this is Clara from Guidewire. I manage our agentic first notice of loss waitlist.",
-    "Thanks for calling. How can I help you with your claim today?",
-    "I've added you to the waitlist. You'll get an email when a spot opens up.",
+DEFAULT_DESC = DESC_FNOL
+
+SAMPLE_PAIRS = [
+    [
+        "Hi, thanks for calling. I am sorry you are dealing with this. <sigh> I can take your first notice of loss right now.",
+        DESC_FNOL,
+    ],
+    [
+        "You are safe, and we can go step by step. There is no rush.",
+        DESC_FNOL_CALM,
+    ],
+    [
+        "Wow. This place looks even better than I imagined. How did they set all this up so perfectly? The lights, the music, everything feels magical. I can't stop smiling right now.",
+        DESC_HOST,
+    ],
+    [
+        "Welcome back to another episode of our podcast! <laugh_harder> Today we are diving into an absolutely fascinating topic",
+        DESC_VILLAIN,
+    ],
+    [
+        "You dare challenge me, mortal <snort> how amusing. Your kind always thinks they can win",
+        DESC_DEMON,
+    ],
+    [
+        "After all we went through to pull him out of that mess <cry> I can't believe he was the traitor",
+        DESC_GODDESS,
+    ],
+    [
+        "Hello! This is Maya1 <laugh_harder> the best open source voice AI model with emotions.",
+        "Realistic male voice in the 30s age with american accent. Normal pitch, warm timbre, conversational pacing.",
+    ],
 ]
+
+
+def unwrap_description(description: str) -> str:
+    """Users type the inside of the Maya card, not the XML wrapper."""
+    d = (description or "").strip()
+    m = re.fullmatch(r'<description\s*=\s*"(.*)">\s*', d, flags=re.S)
+    if m:
+        return m.group(1).strip()
+    m = re.match(r'^<description\s*=\s*"([^"]*)"\s*>\s*$', d)
+    if m:
+        return m.group(1).strip()
+    return d
 
 
 def load_config(path: Path) -> dict:
@@ -109,7 +193,7 @@ class MayaDemo:
             device_map="auto",
             trust_remote_code=True,
         )
-        print(f"Attaching Clara LoRA from {lora_path}...")
+        print(f"Attaching LoRA from {lora_path}...")
         self.model = PeftModel.from_pretrained(base, str(lora_path))
         self.model.eval()
         print(f"Loading SNAC ({snac_id})...")
@@ -124,7 +208,8 @@ class MayaDemo:
         sos = self.tokenizer.decode([CODE_START_TOKEN_ID])
         eot = self.tokenizer.decode([TEXT_EOT_ID])
         bos = self.tokenizer.bos_token or self.tokenizer.decode([BOS_ID])
-        formatted = f'<description="{description.strip()}"> {text.strip()}'
+        description = unwrap_description(description)
+        formatted = f'<description="{description}"> {text.strip()}'
         return soh + bos + formatted + eot + eoh + soa + sos
 
     @torch.inference_mode()
@@ -138,7 +223,8 @@ class MayaDemo:
     ) -> tuple[str, str]:
         if not text.strip():
             raise gr.Error("Enter some text to speak.")
-        description = description.strip() or DEFAULT_DESC
+        description = unwrap_description(description) or DEFAULT_DESC
+        formatted_body = f'<description="{description}"> {text.strip()}'
 
         prompt = self.build_prompt(description, text)
         inputs = self.tokenizer(prompt, return_tensors="pt")
@@ -163,7 +249,7 @@ class MayaDemo:
         if len(snac_tokens) < 7:
             raise gr.Error(
                 "Model produced too few valid audio tokens. "
-                "Try again, lower temperature, or turn Clara LoRA off."
+                "Try again, lower temperature, or turn LoRA off."
             )
 
         levels = unpack_snac_from_7(snac_tokens)
@@ -187,35 +273,59 @@ class MayaDemo:
         sf.write(str(out), audio, 24000, subtype="PCM_16")
 
         frames = len(snac_tokens) // 7
-        mode = "Clara LoRA" if use_clara_lora else "base Maya1 (adapter off)"
+        mode = "Jacqueline LoRA" if use_clara_lora else "base Maya1 (adapter off)"
         info = (
             f"**Mode:** {mode}  \n"
             f"**SNAC frames:** {frames} (~{len(audio)/24000:.1f}s)  \n"
-            f"**Tip:** If LoRA sounds harsh, uncheck Clara LoRA to hear stock Maya1."
+            f"**Prompt body (what Maya sees):** `{formatted_body}`"
         )
         return str(out), info
 
 
 def build_ui(demo: MayaDemo) -> gr.Blocks:
-    with gr.Blocks(title="Maya1 Clara LoRA demo") as ui:
+    with gr.Blocks(title="Maya1 Jacqueline LoRA demo") as ui:
         gr.Markdown(
             """
-# Maya1 - Clara LoRA test
+# Maya1 — official description + FNOL
 
-LoRA does **not** permanently rewrite Maya into Clara-only.
-- **Clara LoRA ON** - adapter biases toward your waitlist Clara voice
-- **Clara LoRA OFF** - stock Maya1
+Type **only the inside** of the card. Do **not** paste `<description="...">` yourself.
 
-If audio is noisy with LoRA on, compare with LoRA off (short finetune can add artifacts).
+You type: `Female, in her 30s with an American accent and is a customer support agent, warm, clear diction, sad tone at medium intensity`
+
+Code wraps it as: `<description="Female, in her 30s ...">` then your text.
+
+Tags go **in the text**, mid-sentence: `<sigh>` `<laugh>` `<laugh_harder>` `<whisper>` `<cry>` `<gasp>` `<angry>` `<snort>`
+
+First two examples are **jacq_0001 / jacq_0002**. Next four are the Hugging Face card demos. **Uncheck LoRA** for the HF emotion examples.
 """
         )
-        text = gr.Textbox(label="Text", lines=3, value=SAMPLE_TEXTS[0])
-        description = gr.Textbox(label="Voice description", lines=2, value=DEFAULT_DESC)
+        text = gr.Textbox(
+            label="Text (inline tags like <sigh> mid-sentence)",
+            lines=3,
+            value=SAMPLE_PAIRS[0][0],
+        )
+        description = gr.Textbox(
+            label='Voice description (plain English — not the <description="..."> wrapper)',
+            lines=3,
+            value=DESC_FNOL,
+        )
         with gr.Row():
-            use_lora = gr.Checkbox(label="Use Clara LoRA", value=False)
+            use_lora = gr.Checkbox(label="Use Jacqueline LoRA", value=False)
             temperature = gr.Slider(0.1, 1.0, value=0.4, step=0.05, label="Temperature")
             max_tokens = gr.Slider(200, 2000, value=1200, step=50, label="Max new tokens")
-        gr.Examples(examples=[[t] for t in SAMPLE_TEXTS], inputs=[text])
+        wav_dir = ROOT / "data" / "jacqueline" / "wavs"
+        with gr.Row():
+            w1 = wav_dir / "jacq_0001.wav"
+            w2 = wav_dir / "jacq_0002.wav"
+            if w1.is_file():
+                gr.Audio(value=str(w1), label="Cartesia teacher jacq_0001", type="filepath")
+            if w2.is_file():
+                gr.Audio(value=str(w2), label="Cartesia teacher jacq_0002", type="filepath")
+        gr.Examples(
+            examples=SAMPLE_PAIRS,
+            inputs=[text, description],
+            label="jacq_0001, jacq_0002, then Hugging Face Examples 1–4 + README laugh_harder",
+        )
         btn = gr.Button("Generate", variant="primary")
         audio = gr.Audio(label="Output", type="filepath", format="wav")
         mode = gr.Markdown()

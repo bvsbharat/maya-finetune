@@ -56,22 +56,42 @@ def pack_snac(codes: list[torch.Tensor]) -> list[int]:
 
 
 class ClaraMayaDataset(Dataset):
-    def __init__(self, data_dir: Path, metadata_file: str, tokenizer, snac: SNAC, max_seq_len: int, device: str):
+    def __init__(
+        self,
+        data_dir: Path,
+        metadata_file: str,
+        tokenizer,
+        snac: SNAC | None,
+        max_seq_len: int,
+        device: str,
+        cache_dir: Path | None = None,
+    ):
         self.wavs = data_dir / "wavs"
         self.rows = json.loads((data_dir / metadata_file).read_text())
         self.tokenizer = tokenizer
         self.snac = snac
         self.max_seq_len = max_seq_len
         self.device = device
+        self.cache_dir = cache_dir
+        if cache_dir is not None:
+            missing = [r["id"] for r in self.rows if not (cache_dir / f"{r['id']}.pt").exists()]
+            if missing:
+                raise FileNotFoundError(
+                    f"SNAC cache missing for {len(missing)} clips (e.g. {missing[:3]}). "
+                    "Run scripts/cache_snac.py first."
+                )
 
     def __len__(self) -> int:
         return len(self.rows)
 
-    def __getitem__(self, idx: int) -> dict:
-        row = self.rows[idx]
-        # Prefer soundfile: torchaudio>=2.9 load may require torchcodec
+    def _snac_ids(self, row: dict) -> list[int]:
+        if self.cache_dir is not None:
+            packed = torch.load(self.cache_dir / f"{row['id']}.pt", map_location="cpu", weights_only=False)
+            return list(packed["snac_ids"])
+        if self.snac is None:
+            raise RuntimeError("SNAC model required when cache is not used")
         audio, sr = sf.read(str(self.wavs / f"{row['id']}.wav"), dtype="float32", always_2d=True)
-        wav = torch.from_numpy(audio.T)  # (channels, samples)
+        wav = torch.from_numpy(audio.T)
         if wav.shape[0] > 1:
             wav = wav.mean(0, keepdim=True)
         if sr != 24000:
@@ -79,7 +99,11 @@ class ClaraMayaDataset(Dataset):
         with torch.inference_mode():
             codes = self.snac.encode(wav.unsqueeze(0).to(self.device))
             codes_cpu = [c.detach().cpu() for c in codes]
-        snac_ids = pack_snac(codes_cpu)
+        return pack_snac(codes_cpu)
+
+    def __getitem__(self, idx: int) -> dict:
+        row = self.rows[idx]
+        snac_ids = self._snac_ids(row)
 
         text_ids = self.tokenizer(row["formatted_text"], add_special_tokens=False)["input_ids"]
         # Match official Maya1 inference prompt layout exactly.
@@ -156,7 +180,16 @@ def main() -> None:
     )
     model.print_trainable_parameters()
 
-    snac = SNAC.from_pretrained(cfg["snac_id"]).eval().to(device)
+    cache_dir = None
+    snac = None
+    pre_sub = cfg.get("preprocessed_subdir")
+    if pre_sub:
+        candidate = data_dir / pre_sub
+        if candidate.is_dir() and any(candidate.glob("*.pt")):
+            cache_dir = candidate
+            print(f"Using SNAC cache {cache_dir}")
+    if cache_dir is None:
+        snac = SNAC.from_pretrained(cfg["snac_id"]).eval().to(device)
     ds = ClaraMayaDataset(
         data_dir,
         cfg["metadata_file"],
@@ -164,6 +197,7 @@ def main() -> None:
         snac,
         int(cfg["train"]["max_seq_len"]),
         device,
+        cache_dir=cache_dir,
     )
     print(f"Dataset size: {len(ds)}")
 
@@ -182,7 +216,7 @@ def main() -> None:
         warmup_steps=warmup_steps,
         logging_steps=int(t["logging_steps"]),
         save_steps=int(t["save_steps"]),
-        save_total_limit=3,
+        save_total_limit=5,
         bf16=bool(t["bf16"]),
         fp16=not bool(t["bf16"]),
         remove_unused_columns=False,

@@ -1,0 +1,514 @@
+[
+  {
+    "id": "jacq_0002",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> You are safe, and we can go step by step. There is no rush."
+  },
+  {
+    "id": "jacq_0003",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> First, is anyone hurt, even a little?"
+  },
+  {
+    "id": "jacq_0004",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <sigh> I am really sorry that happened. We will get this claim started so someone can help you from here."
+  },
+  {
+    "id": "jacq_0005",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> If you need an ambulance or you are still in the roadway, please say so and we will pause the claim questions."
+  },
+  {
+    "id": "jacq_0006",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Thank you for calling this in. You did the right thing."
+  },
+  {
+    "id": "jacq_0007",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I am going to file this as a personal auto first notice of loss, and I will write the details into the claim as we talk."
+  },
+  {
+    "id": "jacq_0008",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Can I start with the name on the policy?"
+  },
+  {
+    "id": "jacq_0009",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have the policyholder as Alex Chen. Is that right?"
+  },
+  {
+    "id": "jacq_0010",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> And were you the one driving, or are you calling for someone else?"
+  },
+  {
+    "id": "jacq_0011",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Got it. I have you as the driver on the loss."
+  },
+  {
+    "id": "jacq_0012",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> When did this happen? Even an approximate time is fine?"
+  },
+  {
+    "id": "jacq_0013",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have today, around three fifteen in the afternoon. Does that match what you remember?"
+  },
+  {
+    "id": "jacq_0014",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Where were you when it happened? City and a street or intersection is enough."
+  },
+  {
+    "id": "jacq_0015",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have Fifth and Congress in Austin. I will put that as the loss location."
+  },
+  {
+    "id": "jacq_0016",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Take your time and tell me what happened, from the start. I am listening."
+  },
+  {
+    "id": "jacq_0017",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <sigh> That sounds sudden. I am with you. Let me make sure I have the sequence right."
+  },
+  {
+    "id": "jacq_0018",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Was this on the open road, in a parking lot, or at an intersection?"
+  },
+  {
+    "id": "jacq_0019",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> About how fast were you going, if you can estimate?"
+  },
+  {
+    "id": "jacq_0020",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Was there another vehicle involved?"
+  },
+  {
+    "id": "jacq_0021",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have a second vehicle. Do you have a plate, a color, or the other driver's name?"
+  },
+  {
+    "id": "jacq_0022",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> If you do not have all of that, that is okay. We can add it later."
+  },
+  {
+    "id": "jacq_0023",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> How many people were in your vehicle, including you?"
+  },
+  {
+    "id": "jacq_0024",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Did anyone need an ambulance, or is everyone walking and talking?"
+  },
+  {
+    "id": "jacq_0025",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I am glad to hear no one needed an ambulance. I will still note that we asked, and that you said no injuries that you know of."
+  },
+  {
+    "id": "jacq_0026",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Did the airbags deploy?"
+  },
+  {
+    "id": "jacq_0027",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Can you describe the damage you can see? Front bumper, side, or something else?"
+  },
+  {
+    "id": "jacq_0028",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have damage to the front bumper and the passenger headlight. We can update that if a shop finds more."
+  },
+  {
+    "id": "jacq_0029",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Is the car drivable, or do you need a tow?"
+  },
+  {
+    "id": "jacq_0030",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> If you need a tow, I can note that on the claim so roadside can pick it up from here."
+  },
+  {
+    "id": "jacq_0031",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Did police come to the scene, and do you have a report number?"
+  },
+  {
+    "id": "jacq_0032",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> No report yet is fine. I will mark that police were not on scene, or that the number is still coming."
+  },
+  {
+    "id": "jacq_0033",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I am sorry to ask a few more details. It helps the claim get routed to the right person."
+  },
+  {
+    "id": "jacq_0034",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I am going to read this back once. Please stop me if anything is off."
+  },
+  {
+    "id": "jacq_0035",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Personal auto loss today near Fifth and Congress in Austin. Two vehicles. No ambulance. Front bumper damage. You were driving."
+  },
+  {
+    "id": "jacq_0036",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Thank you. I have that captured."
+  },
+  {
+    "id": "jacq_0037",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I am creating the claim now and routing it so an adjuster can pick it up when you hang up."
+  },
+  {
+    "id": "jacq_0039",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> One eight four two, dash, nine zero six."
+  },
+  {
+    "id": "jacq_0040",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <sigh> I know this is a lot after an accident. You do not have to remember every detail today."
+  },
+  {
+    "id": "jacq_0041",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> If you need to step away, say so. I will wait."
+  },
+  {
+    "id": "jacq_0042",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I am listening."
+  },
+  {
+    "id": "jacq_0043",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Take your time."
+  },
+  {
+    "id": "jacq_0044",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have that."
+  },
+  {
+    "id": "jacq_0045",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Are you still there?"
+  },
+  {
+    "id": "jacq_0046",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Sorry, the line got quiet for a second. I am still here."
+  },
+  {
+    "id": "jacq_0047",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Could you say that one more time, a little slower? I want to get it right."
+  },
+  {
+    "id": "jacq_0048",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <sigh> I hear that this has been stressful. Let me stay with the facts we need so we can finish this call for you."
+  },
+  {
+    "id": "jacq_0049",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> We will get this filed before you hang up. You will not be left in a queue."
+  },
+  {
+    "id": "jacq_0050",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> What is the best number if an adjuster needs to reach you later today?"
+  },
+  {
+    "id": "jacq_0051",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have five five five, two one two, four three nine eight. I will only use it for this claim."
+  },
+  {
+    "id": "jacq_0052",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Is there anything else about the loss I should put on the file before we close?"
+  },
+  {
+    "id": "jacq_0053",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> You are all set. The first notice is in, and the claim is already being routed. I hope the rest of your day is easier from here."
+  },
+  {
+    "id": "jacq_0054",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Take care. Someone from claims will follow up with you."
+  },
+  {
+    "id": "jacq_0055",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <sigh> I know calling after a crash is hard. We can keep this to what we need for the first notice."
+  },
+  {
+    "id": "jacq_0056",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Breathe. I have the claim open. You can talk it through in your own words."
+  },
+  {
+    "id": "jacq_0057",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Was this a rear-end, a side swipe, or something else?"
+  },
+  {
+    "id": "jacq_0058",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I will mark this as a rear-end while you were stopped at the light."
+  },
+  {
+    "id": "jacq_0059",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Did this happen in a parking lot while someone was backing out?"
+  },
+  {
+    "id": "jacq_0060",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Parking lot loss is fine. I will still capture the other vehicle if you have it."
+  },
+  {
+    "id": "jacq_0061",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <sigh> If the other driver left the scene, I am sorry. We can still file this as a hit and run."
+  },
+  {
+    "id": "jacq_0062",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I will note hit and run on the first notice, and claims can still work the file from what you saw."
+  },
+  {
+    "id": "jacq_0063",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Do you remember a color, a make, or even a partial plate?"
+  },
+  {
+    "id": "jacq_0064",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> A silver sedan and no plate is still useful. I will put that on the file."
+  },
+  {
+    "id": "jacq_0065",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Is this glass only, like a cracked windshield, or is there body damage too?"
+  },
+  {
+    "id": "jacq_0066",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I will set this as a glass claim so it can route to the right team."
+  },
+  {
+    "id": "jacq_0067",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Was weather a factor? Rain, ice, or standing water?"
+  },
+  {
+    "id": "jacq_0068",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I will note rain and possible hydroplaning. That is just context, not a judgment."
+  },
+  {
+    "id": "jacq_0069",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Did an animal run into the road?"
+  },
+  {
+    "id": "jacq_0070",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> That can happen fast. I will file this as a single-vehicle animal strike."
+  },
+  {
+    "id": "jacq_0071",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Was anyone else in the car with you? A passenger, a child, a coworker?"
+  },
+  {
+    "id": "jacq_0072",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <sigh> I am sorry your passenger is sore. I will note possible injury so claims can follow up with care."
+  },
+  {
+    "id": "jacq_0073",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> If they later need to see a doctor, that can still be added. You do not have to decide that on this call."
+  },
+  {
+    "id": "jacq_0074",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> What is the year, make, and model of your vehicle?"
+  },
+  {
+    "id": "jacq_0075",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have a twenty twenty two Honda C R V. I will match that to the policy vehicle."
+  },
+  {
+    "id": "jacq_0076",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Can you read the last six of the VIN if you have the insurance card handy?"
+  },
+  {
+    "id": "jacq_0077",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> If you do not have the VIN, we can still file. Policy can fill that in."
+  },
+  {
+    "id": "jacq_0078",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Where is the car now? Still at the scene, at home, or at a shop?"
+  },
+  {
+    "id": "jacq_0079",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I can note a tow to the nearest shop if you are not comfortable driving it."
+  },
+  {
+    "id": "jacq_0080",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Do you need a rental while the car is in the shop?"
+  },
+  {
+    "id": "jacq_0081",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I will flag rental on the claim so someone can check your coverage and set that up."
+  },
+  {
+    "id": "jacq_0082",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Did you take any photos of the cars, the street, or the other driver?"
+  },
+  {
+    "id": "jacq_0083",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Keep those photos. You can send them after this call. I will note that pictures exist."
+  },
+  {
+    "id": "jacq_0084",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Was there a witness who stopped, or a store camera nearby?"
+  },
+  {
+    "id": "jacq_0085",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I will put witness unknown for now. We can add a name later if you get one."
+  },
+  {
+    "id": "jacq_0086",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have to ask about fault in a simple way. This is not a final decision, just what you saw."
+  },
+  {
+    "id": "jacq_0087",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> From your view, who made contact first?"
+  },
+  {
+    "id": "jacq_0088",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> You can say you are not sure. Uncertainty is allowed on a first notice."
+  },
+  {
+    "id": "jacq_0089",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <sigh> If the other driver was uninsured, I hear you. We can still start the claim and check coverage."
+  },
+  {
+    "id": "jacq_0090",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Do you have an email where I can send the claim number when we finish?"
+  },
+  {
+    "id": "jacq_0091",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have alex at example dot com. I will send the claim number there."
+  },
+  {
+    "id": "jacq_0092",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Please confirm the street address we have on the policy, including the zip code."
+  },
+  {
+    "id": "jacq_0093",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I have two ten West Maple, apartment four B, in Austin, seven eight seven zero four."
+  },
+  {
+    "id": "jacq_0094",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Was this during a commute, a personal errand, or something else?"
+  },
+  {
+    "id": "jacq_0095",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I will mark personal use, not a commercial trip, unless you tell me otherwise."
+  },
+  {
+    "id": "jacq_0096",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> About what time did you leave the scene, if you already have?"
+  },
+  {
+    "id": "jacq_0097",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> If you are still at the scene, stay somewhere safe, off the travel lanes if you can."
+  },
+  {
+    "id": "jacq_0098",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I am writing this into the claim system as we speak so you are not repeating this to a phone tree later."
+  },
+  {
+    "id": "jacq_0099",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> The first notice is structured now. Loss date, location, vehicles, injuries, and damage are on the file."
+  },
+  {
+    "id": "jacq_0100",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> The claim is created. It is already routing to an adjuster instead of sitting in a queue."
+  },
+  {
+    "id": "jacq_0101",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I appreciate you staying with me through the details. That helps the next person help you faster."
+  },
+  {
+    "id": "jacq_0102",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <sigh> If you start to feel shaken later, that is normal. The claim number is yours to keep."
+  },
+  {
+    "id": "jacq_0103",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Would you like me to repeat the claim number one more time?"
+  },
+  {
+    "id": "jacq_0104",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Again, that is one eight four two dash nine zero six."
+  },
+  {
+    "id": "jacq_0105",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Is there a preferred shop, or should claims suggest one near you?"
+  },
+  {
+    "id": "jacq_0106",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I will leave shop choice open so you are not locked in on this call."
+  },
+  {
+    "id": "jacq_0107",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I am sorry if I asked the same thing twice. I wanted the file to be clean."
+  },
+  {
+    "id": "jacq_0108",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> If I misunderstood the other vehicle, please correct me. I would rather fix it now."
+  },
+  {
+    "id": "jacq_0109",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Okay. I have the correction."
+  },
+  {
+    "id": "jacq_0110",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Go ahead."
+  },
+  {
+    "id": "jacq_0111",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> I am with you."
+  },
+  {
+    "id": "jacq_0112",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Thank you."
+  },
+  {
+    "id": "jacq_0113",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Whenever you are ready."
+  },
+  {
+    "id": "jacq_0114",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Can you say the street name again?"
+  },
+  {
+    "id": "jacq_0115",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Congress Avenue. Thank you. I have it now."
+  },
+  {
+    "id": "jacq_0117",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> We do not need to argue fault here. Just what you experienced is enough for first notice."
+  },
+  {
+    "id": "jacq_0118",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Were the lights working at the intersection, as far as you could tell?"
+  },
+  {
+    "id": "jacq_0119",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Were you turning, going straight, or stopped?"
+  },
+  {
+    "id": "jacq_0120",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Stopped, waiting for green. I have that in the sequence."
+  },
+  {
+    "id": "jacq_0121",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Did you feel one impact or more than one?"
+  },
+  {
+    "id": "jacq_0122",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> One impact from behind. I will keep the narrative short and clear."
+  },
+  {
+    "id": "jacq_0123",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Any warning lights on the dash now, or is the car running normally?"
+  },
+  {
+    "id": "jacq_0124",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> If a light is on, I will note possible mechanical concern so the shop does not miss it."
+  },
+  {
+    "id": "jacq_0126",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> You did what you needed to do. The claim is in motion now."
+  },
+  {
+    "id": "jacq_0127",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Goodbye. Please be safe getting home."
+  },
+  {
+    "id": "jacq_0128",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <sigh> Hi, I can help you file a first notice of loss. Are you somewhere safe to talk?"
+  },
+  {
+    "id": "jacq_0129",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> This is just the first notice. An adjuster will still review coverage and next steps."
+  },
+  {
+    "id": "jacq_0130",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> No forms. No phone tree. You talk, and I capture the claim."
+  },
+  {
+    "id": "jacq_0131",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> <curious> Should I start with injuries, or with what happened?"
+  },
+  {
+    "id": "jacq_0133",
+    "formatted_text": "<description=\"Warm empathetic American adult female claims agent, calm mid pitch, unhurried realistic phone pacing, natural first-notice-of-loss delivery without brightness or laughter\"> Thanks for trusting me with this. I will treat the details carefully."
+  }
+]

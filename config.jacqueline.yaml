@@ -1,0 +1,39 @@
+# Jacqueline FNOL LoRA — keep config.yaml on Clara so the live demo is untouched.
+data_dir: "data/jacqueline"
+wavs_subdir: "wavs"
+metadata_file: "metadata_train.json"
+holdout_file: "metadata_holdout.json"
+
+clara_description: >-
+  Warm empathetic American adult female claims agent,
+  calm mid pitch, unhurried realistic phone pacing,
+  natural first-notice-of-loss delivery without brightness or laughter
+
+sample_rate: 24000
+target_lufs: -23.0
+min_clip_sec: 1.0
+max_clip_sec: 14.0
+
+model_id: "maya-research/maya1"
+snac_id: "hubertsiuzdak/snac_24khz"
+output_dir: "outputs/jacqueline-lora"
+preprocessed_subdir: "preprocessed"
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj]
+
+train:
+  bf16: true
+  load_in_4bit: false
+  lr: 2.0e-5
+  epochs: 4
+  per_device_batch_size: 1
+  grad_accum: 8
+  warmup_ratio: 0.05
+  logging_steps: 5
+  save_steps: 14
+  max_seq_len: 4096
+  seed: 42
